@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanu.css);
+.skip, legend, caption{width:1px;
+					  height:1px;
+					  font-size:0;
+					  line-height:0;
+					  overflow:hidden;
+					  visibility:hidden;
+					  position:absolute;
+					  left:-999;}
+fieldset{border:none;}
+#container{width:1145px;
+		   height:1200px;
+		   margin:0 auto;
+		   overflow:hidden;
+		   font-family:"나눔고딕","NaNumGothic","돋움",Dotum,sans-serif;}
+.lnb{width:242px;
+	 float:left;}
+.submenu{margin-top:10px;}
+.quicksearch{width:242px;
+			 height:134px;
+			 background:#e1e1e1;
+			 border:1px solid #c1c1c1;
+			 float:left;
+			 margin-top:30px;}
+.quicksearch h3{margin:15px 0 0 35px;}
+.quick1{margin:10px 0 0 40px;
+		height:12px;}
+.quick1 input, label{vertical-align:middle;}
+.quick2{height:28px;
+		margin:15px 0 0 30px;
+		position:relative;}
+.quicksearch .search_bg{border:none;
+						background:url(../sub1img/quicksearch_field.gif) no-repeat 0px 0px;
+					    width:135px;
+					    height:28px;
+						position:absolute;
+						top:0;}
+.quicksearch .search_img{position:absolute;
+						 top:0;
+						 right:30px;}
+
+
+.contents{width:903px;
+		  margin:0 auto;
+		  float:right;
+		  position:relative;}
+.no{display:none;}
+
+.home{position:absolute;
+  	  top:35px;
+	  right:75px;
+	  background:url(../sub1img/sub_homeicon.gif) no-repeat 0 0;
+	  padding-left:20px;}
+.home span{background:url(../sub1img/sub_go.gif) no-repeat 0 0;
+		   padding-left:12px;}
+.home span:first-child{background:none;
+					   padding:0;}
+.home .bold{font-weight:bold;}
+
+
+
+.contents{position:relative;}
+.contents h3{margin:94px 0 20px 80px;}
+.explain{margin:50px 0 20px 130px;}
+.contents h4{position:absolute;
+			 top:350px;;
+			 left:100px;}
+.muzigae{margin-left:342px;}
+.sub3_contents{position:absolute;
+			   top:500px;
+			   left:130px;}
+.sub3_contents span{line-height:4;}
+.sub3_contents p{font-size:14px;
+				 line-height:2;
+				 margin-left:20px;}
+
+table{margin-top:50px;
+	  font-size:14px;
+	  border-bottom:2px solid #c3c3c3;
+	  border-collapse:collapse;
+	  width:636px;}
+tr{line-height:3;}
+.date{text-align:center;}
+th{background:#175079;
+   color:#fff;
+   border:1px solid #c3c3c3;}
+td{border:1px solid #c3c3c3;
+   padding-left:10px;:}
+	

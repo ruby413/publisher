@@ -1,0 +1,12 @@
+@charset "utf-8";
+#footer{margin-top:450px;}
+.f_top{overflow:hidden;
+	   border-top:2px solid #ffd6d9;
+	   border-bottom:2px solid #ffd6d9;}
+.f_top li{float:left;
+		  margin:5px 0 0 10px;}
+.add{margin:15px 0 5px 0;
+	 text-align:center;
+	 line-height:1.2;
+	 font-size:13px;}
+.copy{text-align:center;}

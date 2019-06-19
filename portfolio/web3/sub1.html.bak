@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link rel="stylesheet" type="text/css" href="css/sub1.css"/>
+  <title>Document</title>
+  <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+   <script src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/css_browser_selector.min.js" ></script>
+	<script type="text/javascript" src="js/gnb.js"></script>
+ </head>
+ <body>
+<div id="wrapper">
+ <div id="skipMenu">
+	<a href="#">주메뉴 바로가기</a>
+	<a href="#">본문 바로가기</a>
+ </div>
+
+ <header id="header">
+		<div class="top_header">
+			<h1><a href="main.html"><img src="main_images/h1.gif" alt="MANGO CASE 로고"/></a></h1>
+		</div>
+
+		<div class="gnb">
+			<div class="gnb_wrap">
+				<div class="title"><a href="#"><img src="main_images/gnb1.gif" alt="회사소개"/></a></div>
+					<ul class="list">
+						<li><a href="sub1.html">회사소개</a></li>
+						<li><a href="#">회사위치</a></li>
+						<li><a href="#">망고케이스 소개</a></li>
+						<li><a href="#">보도자료</a></li>
+					</ul>
+
+				<div class="title"><a href="#"><img src="main_images/gnb2.gif" alt="제품안내"/></a></div>
+					<ul class="list">
+						<li><a href="#">휴대폰 케이스</a></li>
+						<li><a href="#">휴대폰 악세서리</a></li>
+						<li><a href="#">기타제품</a></li>
+						<li><a href="#">고객문의</a></li>
+					</ul>
+
+				<div class="title"><a href="#"><img src="main_images/gnb3.gif" alt="매장안내"/></a></div>
+					<ul class="list">
+						<li><a href="sub2.html">매장안내</a></li>
+						<li><a href="#">새로운 지점</a></li>
+					</ul>
+
+				<div class="title"><a href="#"><img src="main_images/gnb4.gif" alt="창업안내"/></a></div>
+					<ul class="list">
+						<li><a href="#">업계 현황 및 전망</a></li>
+						<li><a href="#">경쟁력</a></li>
+						<li><a href="#">개설비용</a></li>
+						<li><a href="#">개설절차</a></li>
+						<li><a href="#">수익성 모델</a></li>
+						<li><a href="#">지원항목</a></li>
+					</ul>
+
+				<div class="title"><a href="#"><img src="main_images/gnb5.gif" alt="창업상담문의"/></a></div>
+				<ul class="list">
+						<li><a href="sub3.html">창업 상담 신청</a></li>
+						<li><a href="#">자주하는 질문</a></li>
+						<li><a href="#">고객의 소리</a></li>
+				</ul>
+
+			</div>
+			<ul class="shopping">
+				<li><a href="#"><img src="main_images/gnb_bottom.gif" alt="shopping mall 바로가기"/></a></li>
+			</ul>
+		</div>
+	</header>
+	<footer id="footer">
+		<div class="footer_top">
+			<ul class="f_top">
+				<li><a href="#"><img src="main_images/f_t1.gif" alt="사이트맵"/></a></li>
+				<li><a href="#"><img src="main_images/f_t2.gif" alt="contact us"/></a></li>
+				<li><a href="#"><img src="main_images/f_t3.gif" alt="오시는 길"/></a></li>
+			</ul>
+			<p class="add">
+			경기도 부천구 오정구 산업로<br/>104번길 14 동부라이텍 5층<br/>대표전화 : 080-482-1000
+			</p>
+			<p class="copy"><small>COPYRIGHT(C)2012 MANGOCASE<br/>ALL RIGHT RESERVED</small></p>
+		</div>
+	</footer>
+ </div>
+ 
+ <div id="container">
+	<div class="top">
+		<h2><img src="sub_images/sub1_h2.gif" alt="망고케이스"/></h2>
+		<p><img src="sub_images/sub1_h3.gif" alt="최고의 폰 악세사리 유통점을 지향합니다."/></p>
+	</div>
+	<p class="home"><span class="no">Home</span><span>회사소개</span><span>회사소개</span></p>
+	<div class="contents">
+	<section class="letter">
+		<h3 class="skip">인사말</h3>
+		<p>저희 망고케이스를 찾아주신 여러분께 진심으로 감사 말씀 올립니다.<br/>저희 망고케이스는 스마트폰, 핸드폰, 스마트패드 등 각종 IT 기기 악세서리 및 관련제품을 전문으로 취급하는 폰 악세사리 유통체인점입니다. 고객이 편리하게 원하시는 제품을 구매하실 수 있도록 하기 위해 국내 최대의 다양하고 풍부한 제품군, 강력하고 편리한 상품검색시스템, 안전한 주문결제 등 유통체인점으로서 이용에 불편함이 없도록 저희 망고케이스 임직원은 불철주야 노력하고 있습니다.<br/><br/>앞으로도 끊임없이 새롭게 변화, 개선하여 고객님께 보다 편리한 쇼핑환경을 제공하여 드릴 수 있도록 점주님과 고객님의 입장에서 한층 더 연구하고 노력하겠습니다. 신뢰할 수 있는 사업파트너인 망고케이스가 될 수 있도록 앞으로도 아낌없는 성원과 지도편달을 부탁드리겠습니다.<br/><br/>다시한번 고객님의 방문에 깊은 감사드립니다<br/><span class="who">망고케이스 임직원 올림</span></p>
+	</section>
+	<section class="img">
+		<h3><img src="sub_images/sub1_imgsub.gif" alt="(주)비욘드 텔레콤"/></h3>
+		<span><img src="sub_images/sub1_img.jpg" alt="(주)비욘드 텔레콤은 10년간 KT영업을 온/오프라인으로 운영하며 전국 1위의 영업실적을 올린 대리점입니다. 아띠케이스는 스마트폰/ 스마트패드 액세서리 전문으로 취급하고 있는 도매 쇼핑몰입니다. 망고케이스는 스마트폰/ 스마트패드 액세서리 창업을 위한 프랜차이즈 매장입니다. 완소폰은 스마트폰/ 스마트패드 액세서리 전문으로 취급하고 있으며 일반 고객대상으로 운영하고 있습니다."/></span>
+	</section>
+	</div>
+ </div>
+
+</div>
+ </body>
+</html>

@@ -1,0 +1,14 @@
+	$(function(){
+		/*$('.navi ul').hide();
+		$('.navi ul').eq(0).show();*/
+		$('.list:not(:eq(0))').hide();
+		$('.title').click(function(){
+			if($(this).next().css('display')=='none')
+			{
+			$('.list').slideToggle(1000);
+			}
+			$(this).next().slideToggle(1000);
+			//$('.list').hide();
+			//$(this).next().show();
+		})
+	})

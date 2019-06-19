@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+footer{width:100%;
+	   background:#252525;}
+.top_f{}
+.top_f ul{overflow:hidden;
+		  padding:15px 0 13px 0;
+		  border-bottom:1px solid #555;}
+.top_f ul li{float:left;
+			 text-align:center;}
+.f_1{width:24%;}
+.f_2{width:21%;}
+.f_3{width:21%;}
+.f_4{width:18%;}
+.f_5{width:16%;}
+
+.bottom_f p{color:#666;
+			padding:20px 0 20px 15px;}

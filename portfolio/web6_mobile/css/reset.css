@@ -1,0 +1,119 @@
+@charset "utf-8";
+body,aside,div,a, header, p, img, span, h1,h2,h3,h4,nav,ul,li,fieldset,legend,input,select,label,section,article{margin:0; padding:0;}
+
+img{border:none;
+	vertical-align:top;}
+ul{list-style:none;}
+a:link,a:visited{text-decoration:none;
+				 color:#333;}
+a:hover, a:active{text-decoration:none;
+				 color:#333;}
+@font-face {
+    font-family:'Nanum';
+    font-weight:400;
+    src: url('font/NanumGothic.eot');
+    src: url('font/NanumGothic.eot?#iefix') format('embedded-opentype'),
+         url('font/NanumGothic.woff') format('woff'),
+		 url('font/NanumGothic.ttf') format('truetype');
+}
+@font-face {
+    font-family:'NanumBold';
+    font-weight:600;
+    src: url('font/NanumGothicBold.eot');
+    src: url('font/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
+         url('font/NanumGothicBold.woff') format('woff'),
+		 url('font/NanumGothicBold.ttf') format('truetype');
+}
+@font-face {
+    font-family:'NanumEX';
+    font-weight:900;
+    src: url('font/NanumGothicExtraBold.eot');
+    src: url('font/NanumGothicExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('font/NanumGothicExtraBold.woff') format('woff'),
+		 url('font/NanumGothicExtraBold.ttf') format('truetype');
+}
+body{font-family:'Nanum',"나눔고딕","돋움",dotum;
+	 font-size:12px;
+	 color:#333;}
+.skip, legend, caption{width:1px;
+	  height:1px;
+	  overflow:hidden;
+	  visibility:hidden;
+	  font-size:0;
+	  line-height:0;
+	  position:absolute;
+	  left:-999px;}
+
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+
+.mr5{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr15{margin-right:15px;}
+.mr20{margin-right:20px;}
+.mr25{margin-right:25px;}
+
+.mb5{margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb15{margin-bottom:15px;}
+.mb20{margin-bottom:20px;}
+.mb25{margin-bottom:25px;}
+
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20{margin-left:20px;}
+.ml25{margin-left:25px;}
+
+.pt5{padding-top:5px;}
+.pt10{padding-top:10px;}
+.pt15{padding-top:15px;}
+.pt20{padding-top:20px;}
+.pt25{padding-top:25px;}
+
+.pr5{padding-right:5px;}
+.pr10{padding-right:10px;}
+.pr15{padding-right:15px;}
+.pr20{padding-right:20px;}
+.pr25{padding-right:25px;}
+
+.pb5{padding-bottom:5px;}
+.pb10{padding-bottom:10px;}
+.pb15{padding-bottom:15px;}
+.pb20{padding-bottom:20px;}
+.pb25{padding-bottom:25px;}
+
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.pl15{padding-left:15px;}
+.pl20{padding-left:20px;}
+.pl25{padding-left:25px;}
+
+.ta_c{text-align:center}
+.ta_r{text-align:right}
+.ta_l{text-align:left}
+
+.fl{float:left;}
+.fr{float:right;}
+.fn{float:none;}
+
+#skipMenu{position:absolute;
+		  width:100%;
+		  height:15px;}
+#skipMenu a{position:absolute;
+			top:-100px;}
+#skipMenu a:hover,
+#skipMenu a:active,
+#skipMenu a:focus{position:absolute;
+			      top:0;
+				  width:100%;
+				  padding:5px;
+				  display:block;
+				  text-align:center;
+				  background:#999;
+				  color:#fff;
+				  font-size:16px;
+				  font-weight:bold;}

@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+ <link rel="stylesheet" type="text/css" href="css/sub3.css"/>
+<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+<script src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/gnb.js"></script>
+ </head>
+
+ <body>
+<div id="skipMenu">
+	<a href="#">주메뉴 바로가기</a>
+	<a href="#">본문 바로가기</a>
+ </div>
+<header id="header_wrap">
+	<div class="header_top">
+		<div class="topimg">
+			<a href="#"><img src="main_img/facebook.gif" alt="페이스북"/></a><a href="#"><img src="main_img/twitter.gif" alt="트위터"/></a>
+		</div>
+		<div class="topform">
+			<form method="post" action="#" name="language">
+			<fieldset class="language">
+				<legend>언어별 선택</legend>
+					<label for="language_" class="choice">언어별 선택</label>
+					<select id="language_" title="선택" class="choice_box">
+						<option value="">Korean</option>
+						<option value="">English</option>
+						<option value="">Chinese</option>
+					</select>
+			</fieldset>
+			</form>
+		</div>
+	</div>
+
+		<nav class="gnb">
+		<h1><a href="main.html"><img src="main_img/logo.gif" alt="웅진"/></a></h1>
+		<h2 class="skip">주메뉴</h2>
+		<ul id="gnb">                                          
+			<li class="sub1"><a href="sub1.html">회사소개<span>Overview</span></a>
+				<ul class="sub_gnb1" id="sub_gnb1">
+					<li><a href="sub1.html">회사개요</a></li>
+					<li><a href="#">CEO 인사말</a></li>
+					<li><a href="#">계열사 구성</a></li>
+					<li><a href="#">경영정신</a></li>
+					<li><a href="#">CI</a></li>
+					<li><a href="#">연혁</a></li>
+					<li><a href="#">인사제도</a></li>
+					<li><a href="#">기업문화</a></li>
+					<li><a href="#">혁신경영</a></li>
+					<li><a href="#">상생경영</a></li>
+				</ul>
+			</li>
+			<li class="sub2"><a href="#">사업분야<span>Business Line</span></a>
+				<ul class="sub_gnb2" id="sub_gnb2">
+					<li><a href="#">IT서비스 & 솔루션</a></li>
+					<li><a href="#">콜센터</a></li>
+					<li><a href="#">무안경3D광고</a></li>
+					<li><a href="#">고객사</a></li>
+					<li><a href="#">Best Practice</a></li>
+				</ul>
+			</li>
+			<li class="sub3"><a href="sub2.html">지속가능한 경영<span>Sustainability</span></a>
+				<ul class="sub_gnb3" id="sub_gnb3">
+					<li><a href="sub2.html">윤리경영</a></li>
+					<li><a href="#">사회공헌</a></li>
+					<li><a href="#">환경경영</a></li>
+				</ul>
+			</li>
+			<li class="sub4"><a href="sub3.html">투자자정보<span>Invester Relations</span></a>
+				<ul class="sub_gnb4" id="sub_gnb4">
+					<li><a href="sub3.html">재무정보</a></li>
+					<li><a href="#">주식정보</a></li>
+					<li><a href="#">공시정보</a></li>
+					<li><a href="#">전자공고</a></li>
+				</ul>
+			</li>
+			<li class="sub5"><a href="sub4.html">고객지원<span>Customer Support</span></a>
+				<ul class="sub_gnb5" id="sub_gnb5">
+					<li><a href="sub4.html">공지사항</a></li>
+					<li><a href="#">기사회생게시판</a></li>
+					<li><a href="#">사업별 문의안내</a></li>
+					<li><a href="#">문의하기</a></li>
+					<li><a href="#">찾아오시는 길</a></li>
+					<li><a href="#">사이트 맵</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<div id="container_wrap">
+	<div class="contain">
+		<div class="visual">
+		<p><span>Home</span> <span>></span> <span>투자자정보</span> <span>></span> <span>재무정보</span></p>
+		</div>
+		<div class="sub_content">
+			<section class="sec1">
+			<h4 class="skip">재무정보</h4>
+			<p class="it1">(주)웅진의 <span>재무정보</span>를 확인하실 수 있습니다.</p>
+			</section>
+			
+			<div class="sec2">
+			<form method="post" action="#" name="year" class="year_2016">
+			<fieldset class="year">
+				<legend>연도검색</legend>
+					<label for="search_year" class="search_year">연도검색</label>
+					<select id="search_year" title="선택" class="search_year">
+						<option value="">2016</option>
+						<option value="">2015</option>
+						<option value="">2014</option>
+						<option value="">2013</option>
+						<option value="">2012</option>
+						<option value="">2011</option>
+						<option value="">2010</option>
+					</select>
+			</fieldset>
+			</form>
+			</div>
+
+			<section class="sec3">
+				<h4 class="subject1">재무상태표</h4>
+				<p class="won">(단위 : 원)</p>
+				<table summary="2016년 재무상태표 정보를 확인하실 수 있습니다.">
+				<caption>재무상태표</caption>
+				<colgroup>
+					<col width="25%"/>
+					<col width="25%"/>
+					<col width="25%"/>
+					<col width="*"/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th>과목</th>
+						<th>2016년 1분기</th>
+						<th>2016년 2분기</th>
+						<th>2016년 3분기</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>유동자산</th>
+						<td>197,606,865,564</td>
+						<td>210,471,435,658</td>
+						<td>215,844,430,796</td>
+					</tr>
+					<tr>
+						<th>매각예정자산</th>
+						<td>12,645,180,450</td>
+						<td>10,651,998,000</td>
+						<td>9,920,735,555</td>
+					</tr>
+					<tr>
+						<th>비유동자산</th>
+						<td>462,541,127,942</td>
+						<td>452,049,140,530</td>
+						<td>447,674,831,014</td>
+					</tr>
+					<tr>
+						<th>자산총계</th>
+						<td>672,793,173,956</td>
+						<td>673,172,574,188</td>
+						<td>673,439,997,365</td>
+					</tr>
+					<tr>
+						<th>유동부채</th>
+						<td>239,303,655,195</td>
+						<td>277,780,921,096</td>
+						<td>275,182,857,389</td>
+					</tr>
+					<tr>
+						<th>비유동부채</th>
+						<td>72,565,155,812</td>
+						<td>38,006,401,052</td>
+						<td>38,947,024,704</td>
+					</tr>
+					<tr>
+						<th>부채총계</th>
+						<td>311,868,811,007</td>
+						<td>315,787,322,148</td>
+						<td>314,129,882,093</td>
+					</tr>
+					<tr>
+						<th>자본금</th>
+						<td>32,285,459,000</td>
+						<td>32,285,459,000</td>
+						<td>32,285,459,000</td>
+					</tr>
+					<tr>
+						<th>자본잉여금</th>
+						<td>959,465,500,845</td>
+						<td>959,465,500,845</td>
+						<td>959,465,500,845</td>
+					</tr>
+					<tr>
+						<th>기타자본구성요소</th>
+						<td>24,348,513,119</td>
+						<td>24,430,512,194</td>
+						<td>24,512,511,269</td>
+					</tr>
+					<tr>
+						<th>결손금</th>
+						<td>-655,175,110,015</td>
+						<td>-658,796,219,999</td>
+						<td>-656,953,355,842</td>
+					</tr>
+					<tr>
+						<th>자본총계</th>
+						<td>360,924,362,949</td>
+						<td>357,385,252,040</td>
+						<td>359,310,115,272</td>
+					</tr>
+					<tr>
+						<th>부채 및 자본총계</th>
+						<td>672,793,173,956</td>
+						<td>673,172,574,188</td>
+						<td>673,439,997,365</td>
+					</tr>
+				</tbody>
+				</table>
+
+			</section>
+
+			<section class="sec4">
+				<h4 class="subject1">손익계산서</h4>
+				<p class="won">(단위 : 원)</p>
+				<table summary="2016년 손익계산서 정보를 확인하실 수 있습니다.">
+				<caption>손익계산서</caption>
+				<colgroup>
+					<col width="25%"/>
+					<col width="25%"/>
+					<col width="25%"/>
+					<col width="*"/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th>과목</th>
+						<th>2016년 1분기</th>
+						<th>2016년 2분기</th>
+						<th>2016년 3분기</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>매출액</th>
+						<td>34,705,619,420</td>
+						<td>70,044,518,854</td>
+						<td>103,344,426,528</td>
+					</tr>
+					<tr>
+						<th>매출원가</th>
+						<td>28,013,592,346</td>
+						<td>56,459,676,320</td>
+						<td>82,526,330,013</td>
+					</tr>
+					<tr>
+						<th>매출총이익</th>
+						<td>6,692,027,074</td>
+						<td>13,584,842,534</td>
+						<td>20,818,094,515</td>
+					</tr>
+					<tr>
+						<th>판매비와 관리비</th>
+						<td>6,209,944,025</td>
+						<td>12,439,174,019</td>
+						<td>18,448,756,773</td>
+					</tr>
+					<tr>
+						<th>영업이익</th>
+						<td>482,083,049</td>
+						<td>1,145,468,515</td>
+						<td>2,369,339,747</td>
+					</tr>
+					<tr>
+						<th>기타수익</th>
+						<td>121,542,640</td>
+						<td>5,958,426,608</td>
+						<td>8,074,537,665</td>
+					</tr>
+					<tr>
+						<th>금융수익</th>
+						<td>20,678,128,576</td>
+						<td>22,988,383,719</td>
+						<td>27,934,464,131</td>
+					</tr>
+					<tr>
+						<th>금융원가</th>
+						<td>886,675,813</td>
+						<td>1,798,269,886</td>
+						<td>2,738,696,031</td>
+					</tr>
+					<tr>
+						<th>관계기업투자손익</th>
+						<td>-6,757,038,624</td>
+						<td>-12,512,655,849</td>
+						<td>-11,262,749,696</td>
+					</tr>
+					<tr>
+						<th>법인세비용차감전순이익</th>
+						<td>10,319,563,959</td>
+						<td>10,088,130,966</td>
+						<td>13,538,647,069</td>
+					</tr>
+					<tr>
+						<th>법인세비용</th>
+						<td>834,351,022</td>
+						<td>3,090,097,819</td>
+						<td>9,563,487,997</td>
+					</tr>
+					<tr>
+						<th>중단사업이익</th>
+						<td>-3,451,742,166</td>
+						<td>-4,514,322,766</td>
+						<td>-5,750,312,421</td>
+					</tr>
+					<tr>
+						<th>당기순이익</th>
+						<td>6,033,470,771</td>
+						<td>2,483,710,381</td>
+						<td>4,224,846,651</td>
+					</tr>
+					<tr>
+						<th>기본주당손익</th>
+						<td>101</td>
+						<td>42</td>
+						<td>71</td>
+					</tr>
+				</tbody>
+				</table>
+				<p>주) 분기별 실적은 누적실적기준임</p>
+			</section>
+		</div>
+	</div>
+</div>
+  
+<div id="footer_wrap">
+	<footer class="footer">
+		<div class="logo_">
+			<h2><img src="main_img/footer_logo.gif" alt="웅진"/></h2>
+			<p class="add">서울특별시 종로구 창경궁로 120 (인의동) 종로플레이스 14층</p>
+			<p class="copy"><small>COPYRIGHT 2008 WOONGIN CORPORATION ALL RIGHT RESERVED.</small></p>
+		</div>
+		<section class="guide">
+			<h3 class="skip">하단메뉴</h3>
+			<form method="post" action="#" name="family">
+			<fieldset class="family">
+				<legend>패밀리 사이트</legend>
+					<label for="family_site" class="choice">Family site</label>
+					<select id="family_site" title="선택" class="family_site">
+						<option value="">웅진씽크빅</option>
+						<option value="">북센</option>
+						<option value="">렉스필드 컨트리클럽</option>
+						<option value="">웅진플레이도시</option>
+						<option value="">웅진에너지</option>
+						<option value="">웅진투투럽</option>
+						<option value="">웅진릴리에뜨</option>
+					</select>
+			</fieldset>
+			</form>
+			<ul class="a_color">
+				<li><a href="#">개인정보 취급방침</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">웹접근성 정책안내</a></li>
+			</ul>
+		</section>
+	</footer>
+</div>
+ </body>
+</html>

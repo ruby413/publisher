@@ -1,0 +1,10 @@
+	function auto(){
+		$('.start').fadeTo(200,0)
+			$('.start').hide()
+	}
+	
+	$(function(){
+		setInterval('auto()',4000);
+		
+
+	})

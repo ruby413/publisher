@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(pad.css);
+@import url(phone.css);
+
+
+#container{width:100%;}
+#container > p{width:100%;
+			 height:20px;
+			 background:#6195c8;
+			 padding:10px 0;}
+#container > p > span{background:url(../images/home_icon2.gif)no-repeat -2px 5px;
+				  padding-left:20px;
+				  height:25px;
+				  display:inline-block}
+#container > p > span:first-child{background:none;
+							  margin-left:10%;}
+
+.menu_choice{overflow:hidden;
+			 width:1125px;
+			 margin:10px auto;}
+.menu_choice li{float:left;
+			    width:225px;
+				height:72px;
+				overflow:hidden;
+				position:relative;}
+.menu_choice li a:hover,
+.menu_choice li a:active{position:absolute;
+						 top:-72px;}
+.menu_choice li.now a{position:absolute;
+					  top:-72px;}
+
+.sec2{width:1025px;
+	  margin:80px auto;
+	  overflow:hidden;
+	  position:relative;
+	  height:435px;}
+h2.no_phone{float:left;
+		 margin-right:30px;}
+.sub1_cont1 li{display:inline-block;
+			   text-decoration:underline;
+			   font-size:14px;
+			   font-weight:bold;
+			   color:#376098;
+			   padding: 20px  10px 15px 0;}
+
+.sub1_cont2{overflow:hidden;}
+.icon1, .icon2{float:left;}
+.icon1 span, .icon2 span{font-size:13px;
+						 color:#376098;
+						 font-weight:bold;
+						 padding:15px 20px 0 2px;
+						 display:inline-block;}
+.contents{margin-top:70px;
+		  font-size:13px;
+		  font-weight:bold;
+		  color:#555;
+		  line-height:1.5}
+.sec2_pic{position:absolute;
+		  top:-10px;
+		  right:10px}
+
+.doc{width:1125px;
+	 margin:50px auto;
+	 padding-top:80px;
+	 border-top:1px solid #ccc;}
+.doc_cont{overflow:hidden;}
+.doc_cont li{width:33%;
+			 float:left;
+			 position:relative;
+			 margin-bottom:20px;}
+.doc_cont li img{margin-right:5px;}
+.name{width:82%;
+	  display:inline-block;
+	  padding-top:10px;
+	  font-weight:bold;
+	  font-size:14px;
+	  letter-spacing:-1px;
+	  color:#376098;}
+.cha{width:82%;
+	  display:inline-block;
+	  position:absolute;
+	  top:35px;
+	  right:5px;
+	  font-weight:bold;
+	  letter-spacing:-1px;
+	  font-size:13px;
+	  color:#666}
+
+.time{width:1125px;
+	  margin:0 auto}
+.no_pad table{width:1125px;
+			  margin:80px auto 20px auto;
+			  font-size:13px;
+			  text-align:center;
+			  border-collapse:collapse;
+			  font-weight:bold}
+
+thead th{border-top:1px solid #666;
+	     height:25px;
+		 background:#ebebeb;}
+tbody tr{height:50px;}
+.doc1, .doc2, .doc3, .doc4, .doc5{display:block}
+.doc1{color:#304f79;}
+.doc2{color:#30795d;}
+.doc3{color:#693079;}
+.doc4{color:#793045;}
+.doc5{color:#343434;}
+
+button{width:100px;
+	   height:35px;
+	   background:#2b6387;
+	   border:none;
+	   color:#fff;
+	   font-weight:bold;
+	   margin-right:10px;}
+
+.btn_sub1{width:230px;
+		  margin:30px auto 80px auto}

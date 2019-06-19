@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+  <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+ <style>
+body, div, ul, li, a, img, span, p, h1{margin:0; padding:0;}
+ul{list-style:none;}
+img{border:none;
+	vertical-align:top;}
+a{text-decoration:none;
+  color:#333;}
+body{font-size:12px;
+     color:#333;
+	 font-family:"돋움",dotum;}
+
+	.skip{width:1px;
+		  height:1px;
+		  font-size:0px;
+		  line-height:0px;
+		  position:absolute;
+		  left:-999;
+		  visibility:hidden;
+		  overflow:hidden;}
+
+	.mainbg ul{width:1500px;
+			   position:relative;
+			   height:1300px;
+			   overflow:hidden;
+			   margin:0px auto;
+			   padding:30px 0 0 0;}
+	
+	.mainbg ul li{float:left;
+				  width:120px;}
+
+	.mainbg ul li a{display:block;
+				    width:100%;
+					height:100%;
+					padding:0 10px;
+					text-align:center;}
+	.round_ico{padding:35px 0 0;
+			   position:relative;}
+	.round_ico span.bg1{background:red;
+						display:block;
+						height:78px;
+						width:78px;
+						border-radius:44px;
+						margin:0 auto;
+					transition:all 0.8s cubic-bezier(.17,.61,.76,.51) 0s;}
+	
+	.round_ico span.bg1.red{background:rgba(255,255,255,0.9) url(main_images/redbg.png) no-repeat -100px top;}
+	.round_ico span.bg1.blue{background:rgba(255,255,255,0.9) url(main_images/bluebg.png) no-repeat -100px top}
+	.round_ico span.bg1.green{background:rgba(255,255,255,0.9) url(main_images/greenbg.png) no-repeat -100px top}
+	
+	.mainbg li a:hover .round_ico span.bg1, .mainbg li a:active .round_ico span.bg1{background-position:0 100%}
+
+	.round_ico span.bg1 span.ico{display:block;
+								 height:100%;
+								 width:100%;
+								 position:absolute;
+								 left:0;
+								 top:0;}
+	.round_ico span.bg1 span.ico.t01{background:rgba(0,0,0,0) url(main_images/name1.png) no-repeat center 60px /62.5px 24.3px}
+	.round_ico span.bg1 span.ico.t02{background:rgba(0,0,0,0) url(main_images/name2.png) no-repeat center 60px /38.2px 22px}
+	.round_ico span.bg1 span.ico.t03{background:rgba(0,0,0,0) url(main_images/name3.png) no-repeat center 60px /57.6px 22.5px}
+	.round_ico span.bg1 span.ico.t04{background:rgba(0,0,0,0) url(main_images/name4.png) no-repeat 50px 83px /73.8px 21.6px}
+	.round_ico span.bg1 span.ico.t05{background:rgba(0,0,0,0) url(main_images/name5.png) no-repeat center 50px /61.6px 46.3px}
+	.round_ico span.bg1 span.ico.t06{background:rgba(0,0,0,0) url(main_images/name6.png) no-repeat center 60px /39px 23.4px}
+	.round_ico span.bg1 span.ico.t07{background:rgba(0,0,0,0) url(main_images/name7.png) no-repeat center 60px /58.5px 23px}
+	.round_ico span.bg1 span.ico.t08{background:rgba(0,0,0,0) url(main_images/name8.png) no-repeat center 60px /55.8px 22.5px}
+
+	.mainbg li a:hover .round_ico span.bg1 span.ico,
+	.mainbg li a:active .round_ico span.bg1 span.ico{position:absolute;
+													 background-position:center 60px;
+													 animation:0.8s ease-in-out 0.6s alternate infinite exico}/*움직이는 시간/ 효과/ 정지시간/ 앞뒤이동 방향 / 무한반복/ 임의지정이름키프레임 */
+	.mainbg li a:hover .round_ico span.bg1 span.ico.t05,
+	.mainbg li a:active .round_ico span.bg1 span.ico.t05{position:absolute;
+													 background-position:center 50px;
+													 animation:0.8s ease-in-out 0.6s alternate infinite exico}
+
+	.mainbg li a:hover .round_ico span.bg1 span.ico.t04,
+	.mainbg li a:active .round_ico span.bg1 span.ico.t04{position:absolute;
+													 background-position:50px 83px;
+													 animation:0.8s ease-in-out 0.6s alternate infinite exico}
+	
+	@keyframes exico{
+		0%{
+			top:0px;
+		}
+		100%{
+			top:5px;
+		}
+	}
+	
+
+	.l1{background:url(main_images/loc1.png) no-repeat 25px 28px/90px 165px;
+		width:130px;
+		height:320px;
+		position:absolute;
+		top:135px;
+		left:670px;}
+    .l2{background:url(main_images/loc2.png) no-repeat 23px 28px/93px 160px;
+		width:130px;
+		height:420px;
+		position:absolute;
+		top:163px;
+		right:440px;}
+	.l3{background:url(main_images/loc3.png) no-repeat 23px 28px/93px 160px;
+		width:130px;
+		height:450px;
+		position:absolute;
+		top:197px;
+		right:276px}
+	.mainbg ul li.l4{background:url(main_images/loc4.png) no-repeat 0px 48px/144px 116px;
+					width:162px;
+					height:220px;
+					position:absolute;
+					top:577px;
+					right:100px;}
+	div.round_ico span.spe{margin:21px 48px;}
+
+	.l5{background:url(main_images/loc5.png) no-repeat 23px 28px/93px 160px;
+		width:130px;
+		height:320px;
+		position:absolute;
+		bottom:320px;
+		right:660px;}
+	.l6{background:url(main_images/loc6.png) no-repeat 23px 28px/93px 160px;
+		width:130px;
+		height:425px;
+		position:absolute;
+		bottom:495px;
+		left:305px;}
+	.l7{background:url(main_images/loc7.png) no-repeat 23px 28px/93px 160px;
+		width:130px;
+		height:320px;
+		position:absolute;
+		top:300px;
+		left:497px;}
+	.l8{background:url(main_images/loc8.png) no-repeat 23px 28px/93px 160px;
+		width:130px;
+		height:420px;
+		position:absolute;
+		top:270px;
+		right:592px;}
+	
+	
+	body{background:#bbdde9;
+			width:100%;
+			height:100%;
+			padding-top:80px;}
+	.bg{background:url(main_images/mainbg.jpg) no-repeat -350px 13px;
+		width:1500px;
+		height:1440px;
+		margin:0 auto;
+		position:relative;}
+	
+
+	.myname{position:absolute;
+		    bottom:300px;
+			right:100px;}
+	.myname a:hover img{width:454px;
+						height:390px}
+	
+  .myname a img{transition:all 0.3s ease-in-out;}
+  .myname a:hover .thumb img,
+  .myname a:active .thumb img{transform:scale(1.1)}
+
+  .clowd1{position:absolute;
+		  top:200px;
+		  left:130px;}
+  .clowd1 span{margin:0 60px;}
+  .clowd2{position:absolute;
+		  top:200px;
+		  right:30px;}
+  .clowd2 span{margin:0px 60px;}
+  .clowd2 span.clowd_p{margin-top:130px;
+					   display:inline-block}
+  
+  .clowd1 span.clowd_l{margin-top:40px;
+					   display:inline-block}
+
+  h1{margin-left:100px;
+	 display:inline-block}
+  .work{padding-left:20px;
+		margin-top:60px;
+		display:inline-block}
+ </style>
+ </head>
+ <body>
+ <div class="bg">
+ <h1><img src="main_images/h1.png" alt="juyeony town" width="272px" height="82px"/>
+ <span class="work"><img src="main_images/works.png" alt="작업"/></span></h1>
+ <div class="clowd1">
+	<span class="clowd_l"><img src="main_images/clowd1.png" alt="구름1" width="165px" height="134px"/></span>
+	<span><img src="main_images/clowd2.png" alt="구름2" width="75px" height="60px"/></span>
+ </div>
+ <div class="clowd2">
+	<span><img src="main_images/clowd3.png" alt="구름3" width="101px" height="85px"/></span>
+	<span class="clowd_p"><img src="main_images/clowd4.png" alt="구름4" width="90px" height="75px"/></span>
+ </div>
+  <div class="mainbg">
+  	<ul class="">
+		<li class="l1">
+			<a href="sub8.html">
+				<div class="round_ico">
+					<span class="bg1 red">
+						<span class="ico t01"></span>
+					</span>
+				</div>
+				<p class="skip">배달통</p>
+			</a>
+		</li>
+
+		<li class="l2">
+			<a href="sub4.html">
+				<div class="round_ico">
+					<span class="bg1 green">
+						<span class="ico t02"></span>
+					</span>
+				</div>
+				<p class="skip">통해</p>
+			</a>
+		</li>
+
+		<li class="l3">
+			<a href="sub7.html">
+				<div class="round_ico">
+					<span class="bg1 blue">
+						<span class="ico t03"></span>
+					</span>
+				</div>
+				<p class="skip">헤지스</p>
+			</a>
+		</li>
+
+		<li class="l4">
+			<a href="sub6.html">
+				<div class="round_ico">
+					<span class="bg1 spe red">
+						<span class="ico t04"></span>
+					</span>
+				</div>
+				<p class="skip">투어팁스</p>
+			</a>
+		</li>
+
+		<li class="l5">
+			<a href="sub3.html">
+				<div class="round_ico">
+					<span class="bg1 green">
+						<span class="ico t05"></span>
+					</span>
+				</div>
+				<p class="skip">망고케이스</p>
+			</a>
+		</li>
+
+		<li class="l6">
+			<a href="sub2.html">
+				<div class="round_ico">
+					<span class="bg1 blue">
+						<span class="ico t06"></span>
+					</span>
+				</div>
+				<p class="skip">웅진</p>
+			</a>
+		</li>
+
+		<li class="l7">
+			<a href="sub1.html">
+				<div class="round_ico">
+					<span class="bg1 green">
+						<span class="ico t07"></span>
+					</span>
+				</div>
+				<p class="skip">도서관</p>
+			</a>
+		</li>
+
+		<li class="l8">
+			<a href="sub5.html">
+				<div class="round_ico">
+					<span class="bg1 red">
+						<span class="ico t08"></span>
+					</span>
+				</div>
+				<p class="skip">정병원</p>
+			</a>
+		</li>
+	</ul>
+  </div>
+
+  <div class="myname">
+	<a href="myname.html"><img src="main_images/nameis.png" alt="자기소개" width="430px" height="370px"/></a>
+  </div>
+ </div>
+ </body>
+</html>

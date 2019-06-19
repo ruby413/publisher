@@ -1,0 +1,11 @@
+$(document).ready(function(){
+			/*$('.menu_pic').click(function(){
+				$('.pad_gnb').slideDown('slow')
+			})
+			$('.menu_pic').click(function(){
+				$('.pad_gnb').slideUp(1000)
+			})*/
+			$('.menu_pic').click(function(){
+				$('.pad_gnb').slideToggle(1000)
+			})
+		});

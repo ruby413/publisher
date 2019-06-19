@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/sub1.css"/>
+  <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/gnb_main.js"></script>
+  <script type="text/javascript" src="js/gnb_pad.js"></script>
+ </head>
+ <body>
+  <div id="wrap">
+    <div id="skipMenu">
+		<a href="#container">본문바로가기</a>
+	</div>
+	<ul class="pad pad_gnb">
+		<li><a href="#">진료안내</a>
+			<ul>
+				<li><a href="#">진료과안내</a></li>
+				<li><a href="#">진료안내</a></li>
+			</ul>
+		</li>
+		<li><a href="#">검진안내</a>
+			<ul>
+				<li><a href="#">전문센터</a></li>
+				<li><a href="#">검진안내</a></li>
+			</ul>
+		</li>
+		<li><a href="#">고객센터</a>
+			<ul>
+				<li><a href="#">공지사항</a></li>
+				<li><a href="#">검진 FAQ</a></li>
+				<li><a href="#">증명서 발급 안내</a></li>
+				<li><a href="#">전문의 상담</a></li>
+				<li><a href="#">온라인 예약</a></li>
+				<li><a href="#">고객의 소리함</a></li>
+			</ul>
+		</li>
+		<li><a href="#">병원안내</a>
+			<ul>
+				<li><a href="#">병원소개</a></li>
+				<li><a href="#">정병원 뉴스</a></li>
+				<li><a href="#">보도자료</a></li>
+				<li><a href="#">홍보 동영상</a></li>
+				<li><a href="#">연락처 / 오시는 길</a></li>
+				<li><a href="#">채용안내</a></li>
+				<li><a href="#">협력병원</a></li>
+			</ul>
+		</li>
+	</ul>
+	<header id="header">
+	 <div class="header_top">
+		<div class="top_wrap">
+		<div class="inline_block">
+		<span class="no_pad"><a href="#"><img src="images/home_top1.gif" alt="홈"/></a></span>
+		<span class="no_pad"><a href="#"><img src="images/home_top2.gif" alt="로그인"/></a></span>
+		<span class="no_pad"><a href="#"><img src="images/home_top3.gif" alt="회원가입"/></a></span>
+		<span class="no_pad"><a href="#"><img src="images/home_top4.gif" alt="마이페이지"/></a></span>
+		<span class="no_pad"><a href="#"><img src="images/home_top5.gif" alt="온라인예약"/></a></span>
+		<span class="pad"><a href="#"><img src="images/phone_home1.gif" alt="홈"/></a></span>
+		<span class="pad"><a href="#"><img src="images/phone_home2.gif" alt="로그인"/></a></span>
+		</div>
+		</div>
+	 </div>
+	 <div class="h1">
+		<div class="h1_wrap">
+		<span class="pad"><a href="#"><img src="images/menu_phone.gif" alt="메뉴바로가기"/></a></span>
+		
+		<h1 class="no_phone"><a href="main.html"><img src="images/h1.gif" alt="순천의료재단 정병원"/></a></h1>
+		<h1 class="phone"><a href="main.html"><img src="images/h1_p.gif" alt="순천의료재단 정병원"/></a></h1>
+		</div>
+	 </div>
+	 <nav class="nav">
+		<ul class="no_phone gnblist">
+			<li class="pad"><a href="#"><img src="images/gnb1.gif" alt="진료안내"/></a>
+			<li class="no_pad"><a href="#"><img src="images/gnb1.gif" alt="진료안내"/></a>
+				<ul>
+					<li><a href="#">진료과안내</a>
+						<ul>
+							<li><a href="#">- 정형외과</a></li>
+							<li><a href="#">- 외과</a></li>
+							<li><a href="#">- 마취통증의학과</a></li>
+							<li><a href="#">- 내과</a></li>
+							<li><a href="#">- 소아청소년과</a></li>
+							<li><a href="#">- 신경외과</a></li>
+							<li><a href="#">- 진단검사의학과</a></li>
+							<li><a href="#">- 재활의학과</a></li>
+							<li><a href="#">- 응급의학과</a></li>
+							<li><a href="#">- 영상의학과</a></li>
+						</ul>
+					</li>
+					<li><a href="#">진료안내</a></li>
+				</ul>
+			</li>
+			<li class="no_pad"><a href="#"><img src="images/gnb2.gif" alt="검진안내"/></a>
+				<ul>
+					<li><a href="#">센터 안내</a></li>
+					<li><a href="#">검진 안내</a>
+						<ul>
+							<li><a href="#">- 이용안내</a></li>
+							<li><a href="#">- 프로그램 안내</a></li>
+						</ul>	
+					</li>
+				</ul>
+			</li>
+			<li class="no_pad"><a href="#"><img src="images/gnb3.gif" alt="고객센터"/></a>
+				<ul>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">검진 FAQ</a></li>
+					<li><a href="#">증명서 발급 안내</a></li>
+					<li><a href="#">전문의 상담</a></li>
+					<li><a href="#">온라인 예약</a></li>
+					<li><a href="#">고객의 소리함</a></li>
+					<li><a href="#">진료당직의 현황</a></li>
+				</ul>
+			</li>
+			<li class="pad"><a href="#"><img src="images/gnb4.gif" alt="병원안내"/></a>
+			<li class="no_pad"><a href="#"><img src="images/gnb4.gif" alt="병원안내"/></a>
+				<ul>
+					<li><a href="#">병원소개</a>
+						<ul>
+							<li><a href="#">- 병원장 인사말</a></li>
+							<li><a href="#">- 병원 연혁</a></li>
+							<li><a href="#">- 의료진</a></li>
+							<li><a href="#">- 의료장비</a></li>
+						</ul>
+					</li>
+					<li><a href="#">정병원 뉴스</a></li>
+					<li><a href="#">보도자료</a></li>
+					<li><a href="#">홍보 동영상</a></li>
+					<li><a href="#">연락처 / 오시는 길</a></li>
+					<li><a href="#">채용안내</a></li>
+					<li><a href="#">협력병원</a></li>
+				</ul>
+			</li>
+		</ul>
+	 </nav>	
+	</header>
+	<div id="container">
+		<p class="loca">
+			<span><img src="images/home_icon.gif" alt="home" class="home1"/></span>
+			<span><img src="images/home2.gif" alt="진료안내" class="home2"/></span>
+			<span><img src="images/home3.gif" alt="정형외과" class="home3"/></span>
+		</p>	
+		<ul class="menu_choice no_phone">
+			<li class="now"><a href="#"><img src="images/sub1_tab1.gif" alt="정형외과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab2.gif" alt="외과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab3.gif" alt="마취통증의학과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab4.gif" alt="내과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab5.gif" alt="소아청소년과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab6.gif" alt="진단검사의학과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab7.gif" alt="재활의학과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab8.gif" alt="신경외과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab9.gif" alt="응급의학과"/></a></li>
+			<li><a href="#"><img src="images/sub1_tab10.gif" alt="영상의학과"/></a></li>
+		</ul>
+
+		<section class="sec2">
+			<h2 class="h2 no_phone"><img src="images/sub_h3.gif"  alt="정형외과"/></h2>
+			<h2 class="h2 phone"><img src="images/sub1_h2p.gif"  alt="정형외과"/></h2>
+			<ul class="sub1_cont1 no_phone">
+				<li>최소절개인공관절</li>
+				<li>무릎어깨내시경</li>
+				<li>수지미세접합</li>
+			</ul>
+			<div class="sub1_cont2">
+				<p class="icon1"><img src="images/sub1_icon1.gif" alt="전화" class="no_phone"/><img src="images/sub1_icon1p.gif"  alt="전화" class="phone"/><span>031-750-6000</span></p>
+				<p class="icon2"><img src="images/sub1_icon2.gif" alt="위치" class="no_phone"/><img src="images/sub1_icon2p.gif"  alt="위치" class="phone"/><span>본관 1층</span></p>
+				<p class="contents no_pad">정형외과는 사지와 척추에 있는 뼈와 관절 및 근육, 인대, 신경, 혈관 등<br/>주위조직에 대해 연구하고 질환과 외상을 진단하고 치료하는 <br/>분야입니다.<br/><br/>정형외과에서 주로 하는 치료에는 약물치료 , 주사, 물리치료, 운동치료등이<br/>있으며, 이런 치료에도 증상이 계속되는 경우에는 수술<br/>적인 치료를 하게 됩니다.<br/><br/>국내외 분야별 권위있는 전문의로 구성되어 있는 정병원 정형외과는 다수의<br/>전공의들과 함께 국내 최고의 진료를 하기 위해 노력하고<br/>있습니다.</p>
+
+				<p class="contents pad">정형외과는 사지와 척추에 있는 뼈와 관절 및 근육, 인대, 신경, 혈관 등 주위조직에 대해 연구하고 질환과 외상을 진단하고 치료하는 분야입니다.<br/><br/>정형외과에서 주로 하는 치료에는 약물치료 , 주사, 물리치료, 운동치료등이있으며, 이런 치료에도 증상이 계속되는 경우에는 수술적인 치료를 하게 됩니다.<br/><br/>국내외 분야별 권위있는 전문의로 구성되어 있는 정병원 정형외과는 다수의전공의들과 함께 국내 최고의 진료를 하기 위해 노력하고 있습니다.</p>
+				<p class="sec2_pic no_pad"><img src="images/sub1_pic.jpg" alt="그림1"/></p>
+			</div>
+		</section>
+
+		<div class="doc">
+		<ul class="doc_cont">
+			<li><img src="images/sub1_icon3.gif" alt="의사"/>
+				<span class="name">정인화 의학박사</span>
+				<span class="cha">관절경수술, 인공관절수술, 견관절</span></li>
+			<li><img src="images/sub1_icon3.gif"  alt="의사"/>
+				<span class="name">유명철  의학박사</span>
+				<span class="cha">인공고관절수술, 고관절질환, 류마티스관절염</span></li>
+			<li><img src="images/sub1_icon3.gif" alt="의사"/>
+				<span class="name">정기연 과장</span>
+				<span class="cha">술관절, 관절경수술, 인공관절수술, 스초츠외상 및  골절</span></li>
+			<li><img src="images/sub1_icon3.gif"  alt="의사"/>
+				<span class="name">박기홍 과장</span>
+				<span class="cha">고관절질환 및 인공관절, 족관절 및 족부수술, 무릎관절질환 관절경수술, 스포츠손상, 골절수술</span></li>
+			<li><img src="images/sub1_icon3.gif" alt="의사"/>
+				<span class="name">정남연 과장</span>
+				<span class="cha">견관절, 슬관절, 스포츠의학</span></li>
+			<li><img src="images/sub1_icon3.gif" alt="의사"/>
+				<span class="name">오현석 과장</span>
+				<span class="cha">척추, 목디스크, 허리디스크, 척추관협착증, 척추측만증</span></li>
+		</ul>
+		</div>
+		
+		<div class="time no_pad">
+			<table summary="정형외과 의사선생님들의 시간표입니다" >
+				<caption>시간표</caption>
+				<colgroup>
+					<col width="10%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th></th>
+						<th>월</th>
+						<th>화</th>
+						<th>수</th>
+						<th>목</th>
+						<th>금</th>
+						<th>토</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>오전</th>
+						<td><span class="doc1">정인화</span><span class="doc2">정기연</span></td> 
+						<td><span class="doc3">유명철</span><span class="doc4">정남연</span></td>
+						<td><span class="doc1">정인화</span><span class="doc4">정남연</span></td>
+						<td><span class="doc3">유명철</span><span class="doc5">박기홍</span></td>
+						<td><span class="doc4">정남연</span><span class="doc5">박기홍</span></td>
+						<td><span class="week">1,3주</span><span class="doc4 doc_inline">정남연</span></td>
+					</tr>
+					<tr>
+						<th>오후</th>
+						<td><span class="doc4">정남연</span><span class="doc5">박기홍</span></td>
+						<td><span class="doc5">박기홍</span><span class="doc2">정기연</span></td>
+						<td><span class="doc5">박기홍</span><span class="doc2">정기연</span></td>
+						<td><span class="doc2">정기연</span><span class="doc4">정남연</span></td>
+						<td><span class="doc2">정기연</span></td>
+						<td><span class="week">2,4주</span><span class="doc5 doc_inline">박기홍</span><span class="doc2 doc_padding">정기연</span></td>
+					</tr>
+				</tbody>
+			</table>	
+			</div>
+
+			<div class="time pad">
+			<table summary="정형외과 의사선생님들의 시간표입니다" >
+				<caption>시간표</caption>
+				<colgroup>
+					<col width="10%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th></th>
+						<th>월</th>
+						<th>화</th>
+						<th>수</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>오전</th>
+						<td><span class="doc1">정인화</span><span class="doc2">정기연</span></td> 
+						<td><span class="doc3">유명철</span><span class="doc4">정남연</span></td>
+						<td><span class="doc1">정인화</span><span class="doc4">정남연</span></td>
+					</tr>
+					<tr>
+						<th>오후</th>
+						<td><span class="doc4">정남연</span><span class="doc5">박기홍</span></td>
+						<td><span class="doc5">박기홍</span><span class="doc2">정기연</span></td>
+						<td><span class="doc5">박기홍</span><span class="doc2">정기연</span></td>
+					</tr>
+				</tbody>
+			</table>	
+
+			<table summary="정형외과 의사선생님들의 시간표입니다" >
+				<caption>시간표</caption>
+				<colgroup>
+					<col width="10%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+					<col width="15%"/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th></th>
+						<th>목</th>
+						<th>금</th>
+						<th>토</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>오전</th>
+						<td><span class="doc3">유명철</span><span class="doc5">박기홍</span></td>
+						<td><span class="doc4">정남연</span><span class="doc5">박기홍</span></td>
+						<td><span class="week">1,3주</span><span class="doc4 doc_inline">정남연</span></td>
+					</tr>
+					<tr>
+						<th>오후</th>
+						<td><span class="doc2">정기연</span><span class="doc4">정남연</span></td>
+						<td><span class="doc2">정기연</span></td>
+						<td><span class="week">2,4주</span><span class="doc5 doc_inline">박기홍</span><span class="doc2 doc_padding">정기연</span></td>
+					</tr>
+				</tbody>
+			</table>	
+		</div>
+		<div class="btn_sub1">
+			<button class="b_1">온라인예약</button>
+			<button>전문의상담</button>
+		</div>
+	</div>
+
+	<footer id="footerWrap">
+		<div class="footer_wrap">
+		<h2><img src="images/footer_h1.gif" alt="순천의료재단 정병원"/></h2>
+		<ul class="footer_gnb">
+			<li><a href="#">오시는 길</a></li>
+			<li><a href="#">개인정보 취급방침</a></li>
+			<li><a href="#">회원약관</a></li>
+			<li><a href="#">인재채용</a></li>
+			<li><a href="#">종합검진</a></li>
+			<li><a href="#">환자권리장전</a></li>
+			<li><a href="#">사이트맵</a></li>
+		</ul>
+		<p class="copy">
+		 Copyright 2000-2010 Chung Hospipal. All rights reserved.
+		</p>
+		<p class="add">
+		 <span>경기도 성남시 수정구 수정로 76 (우편번호 13316)</span>
+		 <span>대표번호 : 031-750-6000 팩스번호 : 031-753-8546</span>
+		</p>
+		</div>
+	</footer>
+  </div>
+ </body>
+</html>

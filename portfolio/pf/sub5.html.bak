@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+  <style>
+	body, div, ul, li, a, img, span, p, h2, section, nav, footer{margin:0; padding:0;}
+	ul{list-style:none;}
+	img{border:none;
+		vertical-align:top;}
+	a{text-decoration:none;
+	  color:#333;}
+	body{font-size:12px;
+		 color:#333;
+		 font-family:"돋움",dotum;
+		 background:#bbdde9;
+		 width:100%;
+		 height:100%;}
+	#wrap{width:1500px;
+		  margin:30px auto;}
+	nav{margin-bottom:80px;}
+	nav ul{overflow:hidden;
+		   width:1370px;
+		   margin:0 auto}
+	nav ul li{float:left;}
+	footer{padding-top:100px;
+		   width:1400px;
+		   margin:0 auto;}
+		   
+	.dim{background-color:rgba(0,0,0,0);}
+	span.dim:hover{background-color:rgba(0,0,0,0.2);}
+	.language{float:left;
+			  margin:60px 0 0 80px;}
+.home{background:url(images/home_icon_bg.png) no-repeat center center;
+	   width:220px;
+	   height:219px;
+	   position:absolute;
+	   top:370px;
+	   right:-25px;
+	   position:fixed;
+	   z-index:9999}
+	 ul{position:relative;}
+	.first{position:absolute;
+		   top:112px;
+		   left:75px;}
+	.second{position:absolute;
+		   top:167px;
+		   left:77px;}
+			  /*sub5*/
+
+	#sub5{width:1480px;
+		   margin:0 auto;
+		   height:1020px;}
+	.content1_sub5{overflow:hidden;}
+	.before_sub5{float:left;
+				 margin:30px 50px;
+				 padding-top:80px;
+				 width:450px;}
+	h2{font-size:24px;
+	   color:#7f082c;
+	   letter-spacing:-1px;
+	   text-align:center;}
+	.sub5_bf{display:block;
+			 text-align:center;
+			 margin-top:20px}
+	.before_sub5 .strong{display:block;
+						 text-align:center;
+						 margin:40px 0 0 0px;}
+    .before_sub5 .small{font-size:14px;
+					   font-weight:bold;
+					   display:block;
+					   margin-left:0px;
+					   text-align:center;}
+	.nxt_sub5{float:left;
+			  margin:300px 30px}
+	.after_sub5{background:url(images/pt5_a_bg.gif) no-repeat 0 0;
+			  width:644px;
+			  height:635px;
+			  float:left;
+			  margin:0 80px;
+			  position:relative;}
+	.main1_sub5{position:absolute;
+				  top:130px;
+				  left:28px;}
+	.main2_sub5{position:absolute;
+				  top:131px;
+				  right:30px;}
+	.main3_sub5{position:absolute;
+				  bottom:43px;
+				  right:78px;}
+
+	.sub5_dim1{width:353px;
+			  height:358px;
+			  position:absolute;
+			  top:0px;
+			  left:0px}
+	span.sub5_dim1:hover{background-color:rgba(0,0,0,0.3)}
+	.sub5_dim2{width:164px;
+			  height:260px;
+			  position:absolute;
+			  top:0px;
+			  left:0px}
+	span.sub5_dim2:hover{background-color:rgba(0,0,0,0.3)}
+	.sub5_dim3{width:71px;
+			  height:131px;
+			  position:absolute;
+			  top:0px;
+			  left:0px}
+	span.sub5_dim3:hover{background-color:rgba(0,0,0,0.3)}
+
+	.content2_sub5{overflow:hidden;}
+	.sub_sub5{float:left;
+			  width:660px;
+			  margin-left:130px;
+			  margin-top:50px;}
+	.sub_sub5 ul{overflow:hidden;}
+	.sub_sub5 li{float:left;
+				 margin:15px;
+				 position:relative;}
+	.sub5_dim1_s{width:279px;
+				height:270px;
+				position:absolute;
+			    top:0px;
+			    left:0px}
+	.sub5_dim2_s{width:141px;
+				height:192px;
+				position:absolute;
+			    top:77px;
+			    left:0px}
+	.sub5_dim3_s{width:77px;
+				height:192px;
+				position:absolute;
+			    top:77px;
+			    left:0px}
+	.pad{padding-top:77px;
+		 display:inline-block;
+		 background:url(images/pt8_sub_bg1.gif) no-repeat center 45px;}
+	.phone{padding-top:77px;
+		 display:inline-block;
+		 background:url(images/pt8_sub_bg2.gif) no-repeat center 45px;}
+
+	</style>
+ </head>
+ <body>
+ <div class="home">
+		<ul>
+			<li class="first"><a href="main.html"><img src="images/home.gif" alt="home"/></a></li>
+			<li class="second"><a href="myname.html"><img src="images/iam.gif" alt="iam"/></a></li>
+		</ul>
+</div>
+  <div id="wrap">
+	<nav>
+		<ul>
+			<li><a href="sub1.html"><img src="images/pt1_off.gif" alt="도서관"/></a></li>
+			<li><a href="sub2.html"><img src="images/pt2_off.gif" alt="웅진"/></a></li>
+			<li><a href="sub3.html"><img src="images/pt3_off.gif" alt="망고케이스"/></a></li>
+			<li><a href="sub4.html"><img src="images/pt4_off.gif" alt="통해"/></a></li>
+			<li><a href="sub5.html"><img src="images/pt5_on.gif" alt="정병원"/></a></li>
+			<li><a href="sub6.html"><img src="images/pt6_off.gif" alt="Tourtips"/></a></li>
+			<li><a href="sub7.html"><img src="images/pt7_off.gif" alt="헤지스"/></a></li>
+			<li><a href="sub8.html"><img src="images/pt8_off.gif" alt="배달통"/></a></li>
+		</ul>
+	</nav>
+	<div id="sub5">
+		<div class="content1_sub5">
+			<section class="before_sub5">
+				<a href="http://www.chungsh.com/">
+				<h2>Before</h2>
+				<p class="sub5_bf"><img src="images/pt5_b.gif" alt="정병원 이전"/></p>
+				<p><span class="strong"><img src="images/h3_sub5.gif" alt="정병원"/></span><span class="small">http://www.chungsh.com/</span></p>
+				</a>
+			</section>
+			
+			<p class="nxt_sub5">
+				<img src="images/next.gif" alt="다음"/>
+			</p>
+
+			<div class="after_sub5">
+				<a href="#"class="main1_sub5"><span class="dim sub5_dim1"></span>
+				<img src="images/pt5_a1.gif" alt="정병원 리뉴얼" /></a>
+				<a href="#" class="main2_sub5"><span class="dim sub5_dim2"></span>
+				<img src="images/pt5_a2.gif" alt="정병원 리뉴얼"/></a>
+				<a href="#" class="main3_sub5"><span class="dim sub5_dim3"></span>
+				<img src="images/pt5_a3.gif" alt="정병원 리뉴얼"/></a>
+			</div>
+		</div>
+		<div class="content2_sub5">
+			<div class="language">
+				<img src="images/pt5_cont.gif" alt="정병원 코딩 설명"/>
+			</div>
+
+			<div class="sub_sub5">
+				<ul>
+					<li>
+						<a href="#" class="web"><span class="dim sub5_dim1_s"></span>
+						<img src="images/pt5_sub1.gif" alt="서브1"/></a>
+					</li>
+					<li>
+						<a href="#" class="pad"><span class="dim sub5_dim2_s"></span>
+						<img src="images/pt5_sub2.gif" alt="서브2"/></a>
+					</li>
+					<li>
+						<a href="#" class="phone"><span class="dim sub5_dim3_s"></span>
+						<img src="images/pt5_sub3.gif" alt="서브3"/></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<img src="images/footer.gif" alt="footer_water"/>
+	</footer>
+  </div>
+ </body>
+</html>

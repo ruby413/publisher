@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/visual.js"></script>
+  <script type="text/javascript" src="js/gnb_main.js"></script>
+ </head>
+ <body>
+  <div id="wrap">
+    <div id="skipMenu">
+		<a href="#container">본문바로가기</a>
+	</div>
+	<ul class="pad pad_gnb">
+		<li><a href="#">진료안내</a>
+			<ul>
+				<li><a href="#">진료과안내</a></li>
+				<li><a href="#">진료안내</a></li>
+			</ul>
+		</li>
+		<li><a href="#">검진안내</a>
+			<ul>
+				<li><a href="#">전문센터</a></li>
+				<li><a href="#">검진안내</a></li>
+			</ul>
+		</li>
+		<li><a href="#">고객센터</a>
+			<ul>
+				<li><a href="#">공지사항</a></li>
+				<li><a href="#">검진 FAQ</a></li>
+				<li><a href="#">증명서 발급 안내</a></li>
+				<li><a href="#">전문의 상담</a></li>
+				<li><a href="#">온라인 예약</a></li>
+				<li><a href="#">고객의 소리함</a></li>
+			</ul>
+		</li>
+		<li><a href="#">병원안내</a>
+			<ul>
+				<li><a href="#">병원소개</a></li>
+				<li><a href="#">정병원 뉴스</a></li>
+				<li><a href="#">보도자료</a></li>
+				<li><a href="#">홍보 동영상</a></li>
+				<li><a href="#">연락처 / 오시는 길</a></li>
+				<li><a href="#">채용안내</a></li>
+				<li><a href="#">협력병원</a></li>
+			</ul>
+		</li>
+	</ul>
+	<header id="header">
+	 <div class="header_top">
+		<div class="top_wrap">
+		<div class="inline_block">
+		<span class="no_pad"><a href="#"><img src="images/home_top1.gif" alt="홈"/></a></span>
+		<span class="no_pad"><a href="#"><img src="images/home_top2.gif" alt="로그인"/></a></span>
+		<span class="no_pad"><a href="#"><img src="images/home_top3.gif" alt="회원가입"/></a></span>
+		<span class="no_pad"><a href="#"><img src="images/home_top4.gif" alt="마이페이지"/></a></span>
+		<span class="no_pad"><a href="#"><img src="images/home_top5.gif" alt="온라인예약"/></a></span>
+		<span class="pad"><a href="#"><img src="images/phone_home1.gif" alt="홈"/></a></span>
+		<span class="pad"><a href="#"><img src="images/phone_home2.gif" alt="로그인"/></a></span>
+		</div>
+		</div>
+	 </div>
+	 <div class="h1">
+		<div class="h1_wrap">
+		<span class="pad menu_pic"><a href="#"><img src="images/menu_phone.gif" alt="메뉴바로가기"/></a></span>
+		
+		<h1 class="no_phone"><a href="main.html"><img src="images/h1.gif" alt="순천의료재단 정병원"/></a></h1>
+		<h1 class="phone"><a href="main.html"><img src="images/h1_p.gif" alt="순천의료재단 정병원"/></a></h1>
+		</div>
+	 </div>
+	 <nav class="nav">
+		<ul class="no_phone gnblist">
+			<li class="pad"><a href="#"><img src="images/gnb1.gif" alt="진료안내"/></a>
+			<li class="no_pad"><a href="#"><img src="images/gnb1.gif" alt="진료안내"/></a>
+				<ul>
+					<li><a href="#">진료과안내</a>
+						<ul>
+							<li><a href="sub1.html">- 정형외과</a></li>
+							<li><a href="#">- 외과</a></li>
+							<li><a href="#">- 마취통증의학과</a></li>
+							<li><a href="#">- 내과</a></li>
+							<li><a href="#">- 소아청소년과</a></li>
+							<li><a href="#">- 신경외과</a></li>
+							<li><a href="#">- 진단검사의학과</a></li>
+							<li><a href="#">- 재활의학과</a></li>
+							<li><a href="#">- 응급의학과</a></li>
+							<li><a href="#">- 영상의학과</a></li>
+						</ul>
+					</li>
+					<li><a href="#">진료안내</a></li>
+				</ul>
+			</li>
+			<li class="no_pad"><a href="#"><img src="images/gnb2.gif" alt="검진안내"/></a>
+				<ul>
+					<li><a href="#">센터 안내</a></li>
+					<li><a href="#">검진 안내</a>
+						<ul>
+							<li><a href="#">- 이용안내</a></li>
+							<li><a href="#">- 프로그램 안내</a></li>
+						</ul>	
+					</li>
+				</ul>
+			</li>
+			<li class="no_pad"><a href="#"><img src="images/gnb3.gif" alt="고객센터"/></a>
+				<ul>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">검진 FAQ</a></li>
+					<li><a href="#">증명서 발급 안내</a></li>
+					<li><a href="#">전문의 상담</a></li>
+					<li><a href="#">온라인 예약</a></li>
+					<li><a href="#">고객의 소리함</a></li>
+					<li><a href="#">진료당직의 현황</a></li>
+				</ul>
+			</li>
+			<li class="pad"><a href="#"><img src="images/gnb4.gif" alt="병원안내"/></a>
+			<li class="no_pad"><a href="#"><img src="images/gnb4.gif" alt="병원안내"/></a>
+				<ul>
+					<li><a href="#">병원소개</a>
+						<ul>
+							<li><a href="#">- 병원장 인사말</a></li>
+							<li><a href="#">- 병원 연혁</a></li>
+							<li><a href="#">- 의료진</a></li>
+							<li><a href="#">- 의료장비</a></li>
+						</ul>
+					</li>
+					<li><a href="#">정병원 뉴스</a></li>
+					<li><a href="#">보도자료</a></li>
+					<li><a href="#">홍보 동영상</a></li>
+					<li><a href="#">연락처 / 오시는 길</a></li>
+					<li><a href="#">채용안내</a></li>
+					<li><a href="#">협력병원</a></li>
+				</ul>
+			</li>
+		</ul>
+	 </nav>	
+	</header>
+	<div id="container">
+		<div class="no_pad visual">
+			<ul class="banner">
+				<li><img src="images/visual1.jpg" alt="그림1"/></li>
+				<li><img src="images/visual2.jpg" alt="그림2"/></li>
+				<li><img src="images/visual3.jpg" alt="그림3"/></li>
+			</ul>
+			<div class="btn">
+				<a href="#" class="on_btn">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+			</div>
+		</div>
+
+		<div class="tab1">
+			<ul class="no_phone">
+				<li><a href="#"><img src="images/tab1_1.gif" alt="온라인예약"/></a></li>
+				<li><a href="#"><img src="images/tab1_2.gif" alt="전문의상담"/></a></li>
+				<li><a href="#"><img src="images/tab1_3.gif" alt="검진안내"/></a></li>
+				<li><a href="#"><img src="images/tab1_4.gif" alt="법정비급여"/></a></li>
+				<li><a href="#"><img src="images/tab1_5.gif" alt="협력병원"/></a></li>
+				<li><a href="#"><img src="images/tab1_6.gif" alt="고객의소리"/></a></li>
+			</ul>
+			<ul class="phone">
+				<li><a href="#"><img src="images/tab1_1p.gif" alt="온라인예약"/></a></li>
+				<li><a href="#"><img src="images/tab1_2p.gif" alt="전문의상담"/></a></li>
+				<li><a href="#"><img src="images/tab1_3p.gif" alt="검진안내"/></a></li>
+				<li><a href="#"><img src="images/tab1_4p.gif" alt="법정비급여"/></a></li>
+				<li><a href="#"><img src="images/tab1_5p.gif" alt="협력병원"/></a></li>
+				<li><a href="#"><img src="images/tab1_6p.gif" alt="고객의소리"/></a></li>
+			</ul>
+		</div>
+		<section class="tab2">
+			<h3 class="no_phone2"><img src="images/tab2_h2.gif" alt="진료과안내"/></h3>
+			<h3 class="phone"><img src="images/tab2_p.gif" alt="진료과안내"/></h3>
+			<ul class="no_phone">
+				<li>
+					<ul class="tab_width1">
+						<li><a href="sub1.html"><img src="images/tab2_1.gif" alt="정형외과"/></a></li>
+						<li><a href="#"><img src="images/tab2_2.gif" alt="외과"/></a></li>
+						<li><a href="#"><img src="images/tab2_6.gif" alt="신경외과"/></a></li>
+						<li><a href="#"><img src="images/tab2_7.gif" alt="진단검사의학과"/></a></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="tab_width1">
+						<li><a href="#"><img src="images/tab2_3.gif" alt="마취통증의학과"/></a></li>
+						<li><a href="#"><img src="images/tab2_4.gif" alt="내과"/></a></li>
+						<li><a href="#"><img src="images/tab2_8.gif" alt="재활의학과"/></a></li>
+						<li><a href="#"><img src="images/tab2_9.gif" alt="응급의학과"/></a></li>
+					</ul>
+				</li>
+				<li class="last">
+					<ul class="tab_width2">
+						<li><a href="#"><img src="images/tab2_5.gif" alt="소아청소년과"/></a></li>
+						<li><a href="#"><img src="images/tab2_10.gif" alt="영상의학과"/></a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="phone tab2_color">
+				<li><a href="sub1.html"><img src="images/tab2_1p.gif" alt="정형외과"/></a></li>
+				<li><a href="#"><img src="images/tab2_2p.gif" alt="외과"/></a></li>
+				<li><a href="#"><img src="images/tab2_3p.gif" alt="마취통증의학과"/></a></li>
+				<li><a href="#"><img src="images/tab2_4p.gif" alt="내과"/></a></li>
+				<li><a href="#"><img src="images/tab2_5p.gif" alt="소아청소년과"/></a></li>
+				<li><a href="#"><img src="images/tab2_6p.gif" alt="신경외과"/></a></li>
+				<li><a href="#"><img src="images/tab2_7p.gif" alt="진단검사의학과"/></a></li>
+				<li><a href="#"><img src="images/tab2_8p.gif" alt="재활의학과"/></a></li>
+				<li><a href="#"><img src="images/tab2_9p.gif" alt="응급의학과"/></a></li>
+				<li><a href="#"><img src="images/tab2_10p.gif" ablt="영상의학과"/></a></li>
+			</ul>
+
+		</section>
+		
+		<div class="tab3">
+			<ul class="no_pad">
+				<li><a href="#"><img src="images/tab3_1.gif" alt="공지사항"/></a></li>
+				<li><a href="#"><img src="images/tab3_2.gif" alt="전화예약"/></a></li>
+				<li><a href="#"><img src="images/tab3_3.gif" alt="채용공고"/></a></li>
+				<li><a href="#"><img src="images/tab3_4.gif" alt="위치안내"/></a></li>
+			</ul>
+			<ul class="pad no_phone">
+				<li><a href="#"><img src="images/pad_tab3_1.gif" alt="공지사항"/></a></li>
+				<li><a href="#"><img src="images/pad_tab3_2.gif" alt="전화예약"/></a></li>
+				<li><a href="#"><img src="images/pad_tab3_3.gif" alt="채용공고"/></a></li>
+				<li><a href="#"><img src="images/pad_tab3_4.gif" alt="위치안내"/></a></li>
+			</ul>
+			<div class="phone_wrap">
+			<ul class="phone">
+				<li><a href="#"><img src="images/tab3_1p.gif" alt="공지사항"/></a></li>
+				<li><a href="#"><img src="images/tab3_2p.gif" alt="전화예약"/></a></li>
+				<li><a href="#"><img src="images/tab3_3p.gif" alt="채용공고"/></a></li>
+				<li><a href="#"><img src="images/tab3_4p.gif" alt="위치안내"/></a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footerWrap">
+		<div class="footer_wrap">
+		<h2><img src="images/footer_h1.gif" alt="순천의료재단 정병원"/></h2>
+		<ul class="footer_gnb">
+			<li><a href="#">오시는 길</a></li>
+			<li><a href="#">개인정보 취급방침</a></li>
+			<li><a href="#">회원약관</a></li>
+			<li><a href="#">인재채용</a></li>
+			<li><a href="#">종합검진</a></li>
+			<li><a href="#">환자권리장전</a></li>
+			<li><a href="#">사이트맵</a></li>
+		</ul>
+		<p class="copy">
+		 Copyright 2000-2010 Chung Hospipal. All rights reserved.
+		</p>
+		<p class="add">
+		 <span>경기도 성남시 수정구 수정로 76 (우편번호 13316)</span>
+		 <span>대표번호 : 031-750-6000 팩스번호 : 031-753-8546</span>
+		</p>
+		</div>
+	</footer>
+  </div>
+ </body>
+</html>

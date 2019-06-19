@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+ <link rel="stylesheet" type="text/css" href="css/sub2.css"/>
+<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+<script src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/gnb.js"></script>
+ </head>
+
+ <body>
+<div id="skipMenu">
+	<a href="#">주메뉴 바로가기</a>
+	<a href="#">본문 바로가기</a>
+ </div>
+<header id="header_wrap">
+	<div class="header_top">
+		<div class="topimg">
+			<a href="#"><img src="main_img/facebook.gif" alt="페이스북"/></a><a href="#"><img src="main_img/twitter.gif" alt="트위터"/></a>
+		</div>
+		<div class="topform">
+			<form method="post" action="#" name="language">
+			<fieldset class="language">
+				<legend>언어별 선택</legend>
+					<label for="language_" class="choice">언어별 선택</label>
+					<select id="language_" title="선택" class="choice_box">
+						<option value="">Korean</option>
+						<option value="">English</option>
+						<option value="">Chinese</option>
+					</select>
+			</fieldset>
+			</form>
+		</div>
+	</div>
+
+	<nav class="gnb">
+		<h1><a href="main.html"><img src="main_img/logo.gif" alt="웅진"/></a></h1>
+		<h2 class="skip">주메뉴</h2>
+		<ul id="gnb">                                          
+			<li class="sub1"><a href="sub1.html">회사소개<span>Overview</span></a>
+				<ul class="sub_gnb1" id="sub_gnb1">
+					<li><a href="sub1.html">회사개요</a></li>
+					<li><a href="#">CEO 인사말</a></li>
+					<li><a href="#">계열사 구성</a></li>
+					<li><a href="#">경영정신</a></li>
+					<li><a href="#">CI</a></li>
+					<li><a href="#">연혁</a></li>
+					<li><a href="#">인사제도</a></li>
+					<li><a href="#">기업문화</a></li>
+					<li><a href="#">혁신경영</a></li>
+					<li><a href="#">상생경영</a></li>
+				</ul>
+			</li>
+			<li class="sub2"><a href="#">사업분야<span>Business Line</span></a>
+				<ul class="sub_gnb2" id="sub_gnb2">
+					<li><a href="#">IT서비스 & 솔루션</a></li>
+					<li><a href="#">콜센터</a></li>
+					<li><a href="#">무안경3D광고</a></li>
+					<li><a href="#">고객사</a></li>
+					<li><a href="#">Best Practice</a></li>
+				</ul>
+			</li>
+			<li class="sub3"><a href="sub2.html">지속가능한 경영<span>Sustainability</span></a>
+				<ul class="sub_gnb3" id="sub_gnb3">
+					<li><a href="sub2.html">윤리경영</a></li>
+					<li><a href="#">사회공헌</a></li>
+					<li><a href="#">환경경영</a></li>
+				</ul>
+			</li>
+			<li class="sub4"><a href="sub3.html">투자자정보<span>Invester Relations</span></a>
+				<ul class="sub_gnb4" id="sub_gnb4">
+					<li><a href="sub3.html">재무정보</a></li>
+					<li><a href="#">주식정보</a></li>
+					<li><a href="#">공시정보</a></li>
+					<li><a href="#">전자공고</a></li>
+				</ul>
+			</li>
+			<li class="sub5"><a href="sub4.html">고객지원<span>Customer Support</span></a>
+				<ul class="sub_gnb5" id="sub_gnb5">
+					<li><a href="sub4.html">공지사항</a></li>
+					<li><a href="#">기사회생게시판</a></li>
+					<li><a href="#">사업별 문의안내</a></li>
+					<li><a href="#">문의하기</a></li>
+					<li><a href="#">찾아오시는 길</a></li>
+					<li><a href="#">사이트 맵</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+
+<div id="container_wrap">
+	<div class="contain">
+		<div class="visual">
+		<p><span>Home</span><span>></span> <span>지속가능한 경영</span><span>></span><span>윤리경영</span></p>
+		</div>
+		<div class="sub_content">
+			<section class="sec1">
+			<h4 class="skip">윤리경영</h4>
+			<p class="it1">경영정신 <span>'또또사랑'</span> 을 바탕으로 투명경영을 더욱 강화하였습니다.</p>
+			</section>
+			
+			<div class="sec2">
+				<img src="sub_img/sub2_contents_img1.gif" alt="건물그림" class="sub2pic"/>
+				<h4 class="subject1">윤리경영 개요</h4>
+				<p class="it2">웅진은 창업 초기부터 윤리경영을 경영의 제 1원칙으로 삼아왔으며, 2003년 윤리경영선포 이후 경영정신‘또또사랑’을 바탕으로 투명경영을 더욱 강화했습니다. 특히 윤리규범 실행조직 구축 등 윤리경영시스템을 도입하고 공감대 확산을 위한 다양한 프로그램을 개발해 윤리경영이 기업문화로 자리매김하도록 노력해왔습니다. 웅진은 회계의 투명성, 기획,구매, 인사, 마케팅 및 고객서비스까지 기업활동 전 분야에서 윤리경영을 체계화하고 있습니다. </p>
+			</div>
+			
+			<div class="sec3">
+				<h4 class="subject1">웅진 윤리경영시스템</h4>
+				<img src="sub_img/sub2_content_img2.gif" alt="규범-윤리경영선포, 윤리강령/규정 맟 실현지침 제정, 제보자보호지침제정, 실현시스템(윤리제보센터운영, 윤리리더시스템(계열사활동관리)), 윤리강령준수서약서 / 실행조직-그룹윤리위원회, 그룹윤리사무국(윤리경영팀, 경영기획팀) / 제도-그룹윤리사무국(공채 신입과정, 그룹 승진자 과정, 계열사 윤리특강, 윤리경영 러브센터(가이드북) 배포), 계열사 윤리 사무국(직군, 본부별 교육, ceo메세지, 소식지를 통한 전파 / 평가,진단-윤리경영지수 평가(KPI반영), 윤리실천 수준조사, 협력업체 만족도 조사">
+			</div>
+		</div>
+	</div>
+</div>
+  
+<div id="footer_wrap">
+	<footer class="footer">
+		<div class="logo_">
+			<h2><img src="main_img/footer_logo.gif" alt="웅진"/></h2>
+			<p class="add">서울특별시 종로구 창경궁로 120 (인의동) 종로플레이스 14층</p>
+			<p class="copy"><small>COPYRIGHT 2008 WOONGIN CORPORATION ALL RIGHT RESERVED.</small></p>
+		</div>
+		<section class="guide">
+			<h3 class="skip">하단메뉴</h3>
+			<form method="post" action="#" name="family">
+			<fieldset class="family">
+				<legend>패밀리 사이트</legend>
+					<label for="family_site" class="choice">Family site</label>
+					<select id="family_site" title="선택" class="family_site">
+						<option value="">웅진씽크빅</option>
+						<option value="">북센</option>
+						<option value="">렉스필드 컨트리클럽</option>
+						<option value="">웅진플레이도시</option>
+						<option value="">웅진에너지</option>
+						<option value="">웅진투투럽</option>
+						<option value="">웅진릴리에뜨</option>
+					</select>
+			</fieldset>
+			</form>
+			<ul>
+				<li><a href="#">개인정보 취급방침</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">웹접근성 정책안내</a></li>
+			</ul>
+		</section>
+	</footer>
+</div>
+ </body>
+</html>

@@ -1,0 +1,33 @@
+function changeItem(num){
+
+$('.page a.on').removeClass('on');
+$('.page a').eq(num).addClass('on');
+/*$('.slide li').hide();
+$('.slide li').eq(num).show();*/
+$('.slide').animate({left:'-960px'},1000,function(){
+  $('.slide').append($('.slide li:first'));
+ $('.slide').css('left','0px');
+ })
+}
+function next(){
+var temp=$('.page a.on').index()+1;
+if(temp>$('.page a').length-1){
+temp=0;
+}
+changeItem(temp)
+}
+
+var sid;
+$(document).ready(function(){
+ sid=setInterval(next,1000)
+$('.page a').mouseenter(function(){
+clearInterval(sid);
+changeItem($(this).index())
+})
+$('.page a').mouseleave(function(){
+sid=setInterval(next,1000)
+
+})
+
+
+})

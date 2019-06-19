@@ -1,0 +1,7 @@
+@charset "utf-8";
+.start{width:100%;
+	   background: url(../images/visual_start.jpg) no-repeat center center /277px 243px #001b32;
+	   position:absolute;
+	   top:0;
+	   left:0;
+	   z-index:9999;}

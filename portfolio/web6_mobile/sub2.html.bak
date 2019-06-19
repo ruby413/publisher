@@ -1,0 +1,219 @@
+<html lang="ko">
+ <head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/sub2.css"/>
+  	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/swipe.js"></script>
+ </head>
+ <body>
+  <div id="skipMenu">
+	<a href="#">본문바로가기</a>
+	<a href="#">주메뉴바로가기</a>
+ </div>                
+ <div id="wrap">
+	<div class="in_wrap">
+		<header id="header" class="headerSect">
+			<div class="top_head">
+				<h1><a href="main.html"><img src="images/h1.gif" alt="hazzys" width="117" height="36"/></a></h1>
+				<p class="login">
+					<a href="#">
+					<img src="images/login.gif" alt="로그인" width="21" height="20"/>
+					<span>로그인</span>
+					</a>
+				</p>
+				<p class="bag">
+					<a href="#">
+					<img src="images/bag.gif" alt="장바구니" width="21" height="20"/>
+					<span>장바구니</span>
+					</a>
+				</p>
+			</div>
+			<div class="middle_head">
+				<p class="menu_p"><a href="#"><img src="images/menu_bar.gif" alt="전체메뉴열기" width="25" height="27"/></a></p>
+				<div id="allmenuH" class="allmenu">
+					<div class="allmenuIn">
+						<div class="top_menu">
+						<span class="hello">반갑습니다. Hazzys 입니다.</span>
+						<a href="#" class="menu_login"><img src="images/login_side.gif" alt="로그인" width="21" height="20"/><span>로그인</span></a>
+						</div>
+						<nav>
+							<ul>
+								<li class="menu1 menu">
+									<a href="#" class="bgm"><img src="images/side_icon.gif" alt="icon" width="15" height="12"/><span class="color">New Arrival</span></a>
+									<ul>
+										<li><a href="sub1.html">ALL</a></li>
+										<li><a href="#">MEN</a></li>
+										<li><a href="#">WOMEN</a></li>
+									</ul>
+								</li>
+								
+								<li class="menu2 menu">
+									<a href="#" class="bgm"><img src="images/side_icon.gif" alt="icon" width="15" height="12"/><span class="color">Men</span></a>
+									<ul>
+										<li><a href="sub2.html">티셔츠</a></li>
+										<li><a href="#">셔츠</a></li>
+										<li><a href="#">팬츠</a></li>
+										<li><a href="#">자켓 / 베스트</a></li>
+										<li><a href="#">점퍼</a></li>
+										<li><a href="#">코트</a></li>
+										<li><a href="#">니트/가디건</a></li>
+									</ul>
+								</li>
+								<li class="menu3 menu">
+									<a href="#" class="bgm"><img src="images/side_icon.gif" alt="icon" width="15" height="12"/><span class="color">Women</span></a>
+									<ul>
+										<li><a href="#">원피스</a></li>
+										<li><a href="#">티셔츠</a></li>
+										<li><a href="#">셔츠</a></li>
+										<li><a href="#">니트 / 가디건</a></li>
+										<li><a href="#">팬츠</a></li>
+										<li><a href="#">스커트</a></li>
+										<li><a href="#">자켓 / 베스트</a></li>
+										<li><a href="#">점퍼</a></li>
+										<li><a href="#">코트</a></li>
+									</ul>
+								</li>
+								<li class="menu4 menu">
+									<a href="#" class="bgm"><img src="images/side_icon.gif" alt="icon" width="15" height="12"/><span class="color">Accessory</span></a>
+									<ul>
+										<li><a href="#">가방 / 지갑 / 벨트</a></li>
+										<li><a href="#">슈즈 / 패션용품</a></li>
+										<li><a href="#">골프</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div><!--allmenuIn-->
+				<span class="dim"></span>
+				</div><!--allmenu-->
+				<form method="post" action="#">
+					<fieldset>
+						<legend>검색창</legend>
+						<label for="search">검색</label>
+						<input type="text" id="search" name="search" title="검색"/>
+						<input type="image" id="img_s" src="images/go.gif" alt="검색" width="30" height="27"/>
+					</fieldset>
+				</form>
+				<a href="#" class="go_menu"><img src="images/go_menu.gif" alt="메뉴구성보기" width="23" height="25"/></a>
+			</div><!--middle_head-->
+		</header>
+		<div id="bottom_header">
+			<ul>
+				<li><a href="sub1.html"><img src="images/sub1.gif" alt="new" width="31" height="14"/></a></li>
+				<li><a href="sub2.html"><img src="images/sub2.gif" alt="man" width="31" height="14"/></a></li>
+				<li><a href="#"><img src="images/sub3.gif" alt="woman" width="52" height="14"/></a></li>
+				<li><a href="#"><img src="images/sub4.gif" alt="bag" width="31" height="14"/></a></li>
+				<li><a href="#"><img src="images/sub5.gif" alt="accessory" width="67" height="14"/></a></li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="visual_sub2">
+				<p>
+					<span class="new">MAN</span>
+					<img src="images/subheader_nxt.gif" alt="다음" width="9" height="11"/>
+					<span class="all">티셔츠</span>
+				</p>
+				<img src="images/sub2_visual.jpg" alt="MAN"/>
+			</div>
+			<div class="select_sub2">
+				<form method="post" action="#">
+				<fieldset>
+					<legend>선택</legend>
+					<label for="select" class="select">선택</label>
+					<select id="select" title="선택" class="select">
+						<option value="">판매인기순</option>
+						<option value="">신상품순</option>
+						<option value="">높은가격순</option>
+						<option value="">낮은가격순</option>
+						<option value="">할인율 높은순</option>
+					</select>
+				</fieldset>
+				</form>
+				<p class="sel_right">
+					<span><a href="#"><img src="images/sel1.gif" alt="리스트형 보기" width="15" height="15"/></a></span>
+					<span><a href="#"><img src="images/sel2.gif" alt="작게보기" width="15" height="15"/></a></span>
+				</p>
+			</div>
+			<div class="contents">
+				<table summary="판매 인기 순의 제품들을 나열해 드립니다.">
+				<caption>판매인기순</caption>
+				<colgroup>
+					<col width="20%"/>
+					<col width="*"/>
+				</colgroup>
+				<tbody>
+					<tr class="height">
+						<th><img src="images/sub2_1.gif" alt="이미지1" width="83" height="92"/></th>
+						<td>
+							<span class="new_icon">best</span>
+							<p><span class="grey">HAZZYS MEN</span><br/>[Peter Jensen x HAZZYS]<br/>그레이 밑단배색 캐릭패치 라운드넥 긴팔티<br/><span class="grey line">￦139,000</span>￦81,310</p>
+						</td>
+					</tr>
+					<tr class="height">
+						<th><img src="images/sub2_2.gif" alt="이미지2" width="83" height="92"/></th>
+						<td>
+							<span class="new_icon">best</span>
+							<p><span class="grey">HAZZYS MEN</span><br/>[헤지스 X 윔블던]<br/>그린 컬러블럭 WIMBLEDON 티셔츠<br/><span class="grey line">￦139,000</span>￦81,310</p>
+						</td>
+					</tr>
+					<tr>
+						<th><img src="images/sub2_3.gif" alt="이미지3" width="83" height="92"/></th>
+						<td>
+							<span class="new_icon">best</span>
+							<p><span class="grey">HAZZYS MEN</span><br/>네이비 퍼피 패치 장식 티셔츠<br/><span class="grey line">￦139,000</span>￦87,570</p>
+						</td>
+					</tr>
+					<tr>
+						<th><img src="images/sub2_4.gif" alt="이미지4" width="83" height="92"/></th>
+						<td>
+							<p><span class="grey">HAZZYS MEN</span><br/>네이비 스트라이프 배색 반집업 긴팔 티셔츠<br/><span class="grey line">￦169,000</span>￦106,470</p>
+						</td>
+					</tr>
+					<tr>
+						<th><img src="images/sub2_5.gif" alt="이미지5" width="83" height="92"/></th>
+						<td>
+							<p><span class="grey">HAZZYS MEN</span><br/>네이비 솔리드 기모 맨투맨 티셔츠<br/><span class="grey line">￦129,000</span>￦75,460</p>
+						</td>
+					</tr>
+				</tbody>
+				</table>
+				<div class="bottom_sub2">
+				<p class="num">
+					<span class="now"><a href="#">1</a></span>
+					<span><a href="#">2</a></span>
+					<span><a href="#">3</a></span>
+					<span><a href="#">4</a></span>
+					<span><a href="#">5</a></span>
+				</p>
+				<div class="btn_sub1">
+					<a href="#" class="prev_1"><img src="images/sub_prev.gif" alt="prev" width="14" height="14"/></a>
+					<a href="#" class="nxt_1"><img src="images/sub_nxt.gif" alt="next" width="14" height="14"/></a>
+				</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="top_f">
+			<ul>
+				<li class="f_1"><a href="#"><img src="images/footer1.gif" alt="로그인/회원가입" width="80" height="12"/></a></li>
+				<li class="f_2"><a href="#"><img src="images/footer2.gif" alt="오늘 본 상품" width="57" height="12"/></a></li>
+				<li class="f_3"><a href="#"><img src="images/footer3.gif" alt="주문 배송 조회" width="67" height="12"/></a></li>
+				<li class="f_4"><a href="#"><img src="images/footer4.gif" alt="사이트맵" width="40" height="12"/></a></li>
+				<li class="f_5"><a href="#"><img src="images/footer5.gif" alt="pc버전" width="33" height="12"/></a></li>
+			</ul>
+			</div>
+			<div class="bottom_f">
+			<p><small>Hazzys.com은 (주) LF에서 운영하고 있습니다.<br/>사업자등록번호 : 211-87-87724통신판매업신고 : 제 2010-서울강남-00066호사업자정보확인<br/>대표전화 : 1544-5114팩스 : 031-360-0004이메일 : fashionmaster@lfcorp.com<br/>서울 강남구 언주로 870(주) LF 대표이사 : 오규식<br/>COPYRIGHT &copy; 2014 LF ALL RIGHTS RESERVED.</small></p>
+			</div>
+		</footer>
+	</div>
+ </div>
+ </body>
+</html>

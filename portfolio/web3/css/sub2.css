@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(footer_sub2.css);
+
+body{background:url(../sub_images/bg_color.gif) repeat 0 0;}
+#wrapper{width:1400px;
+		 margin:0 auto;
+		 overflow:hidden;}
+#container{width:1000px;
+		   float:left;}
+.top h2{padding-top:80px;
+		margin-left:90px;}
+.top p{margin-left:90px;}
+.home{text-align:right;
+	  vertical-align:middle;
+	  font-size:13px;
+	  font-weight:bold;
+	  color:#6b6b6b;
+	  margin:0 0 20px 0;}
+.home span{background:url(../sub_images/home.gif) no-repeat 6px 0;
+		   padding-left:20px;}
+.home span.no{background:none;}
+
+.contents{background:#fff;
+		  width:1000px;
+		  height:850px;}
+.location{background:url(../sub_images/sub2_img.jpg) no-repeat 0 50px;
+		  width:855px;
+		  height:800px;
+		  margin-left:70px;
+		  position:relative;}
+.location span{font-weight:bold;
+			 background:#f17a88;
+			 width:40px;
+			 height:20px;
+			 font-size:13px;
+			 text-align:center;
+			 padding-top:5px;
+			 display:inline-block;}
+.location li{display:inline-block;
+			 height:40px;
+			 border-left:3px solid #f17a88;}
+.location li a{color:#fff;}
+
+.seoul{position:absolute;
+	   top:215px;
+	   left:330px;}
+.inc{position:absolute;
+	 top:230px;
+	 left:280px;}
+.kyoung{position:absolute;
+		top:250px;
+		left:350px;}
+.dae{position:absolute;
+	 top:370px;
+	 left:360px;}
+.jeounN{position:absolute;
+	    top:430px;
+	    left:320px;}
+.jeounS{position:absolute;
+	    top:600px;
+	    left:340px;}
+.je{position:absolute;
+	top:680px;
+	left:300px;}
+.kyeoungN{position:absolute;
+	      top:400px;
+	      left:480px;}
+.daeG{position:absolute;
+	  top:440px;
+	  left:490px;}
+.bu{position:absolute;
+	top:515px;
+	left:530px;}

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/swipe.js"></script>
+	<script type="text/javascript" src="js/visual.js"></script>
+	<script type="text/javascript" src="js/header_sub.js"></script>
+	<script type="text/javascript" src="js/men.js"></script>
+ </head>
+ <body>
+  <div id="skipMenu">
+	<a href="#">본문바로가기</a>
+	<a href="#">주메뉴바로가기</a>
+ </div>                
+ <div id="wrap">
+	<div class="in_wrap">
+		<header id="header" class="headerSect">
+			<div class="top_head">
+				<h1><a href="#"><img src="images/h1.gif" alt="hazzys" width="117" height="36"/></a></h1>
+				<p class="login">
+					<a href="#">
+					<img src="images/login.gif" alt="로그인" width="21" height="20"/>
+					<span>로그인</span>
+					</a>
+				</p>
+				<p class="bag">
+					<a href="#">
+					<img src="images/bag.gif" alt="장바구니" width="21" height="20"/>
+					<span>장바구니</span>
+					</a>
+				</p>
+			</div>
+			<div class="middle_head">
+				<p class="menu_p"><a href="#"><img src="images/menu_bar.gif" alt="전체메뉴열기" width="25" height="27"/></a></p>
+				<div id="allmenuH" class="allmenu">
+					<div class="allmenuIn">
+						<div class="top_menu">
+						<span class="hello">반갑습니다. Hazzys 입니다.</span>
+						<a href="#" class="menu_login"><img src="images/login_side.gif" alt="로그인" width="21" height="20"/><span>로그인</span></a>
+						</div>
+						<nav>
+							<ul>
+								<li class="menu1 menu">
+									<a href="#" class="bgm"><img src="images/side_icon.gif" alt="icon" width="15" height="12"/><span class="color">New Arrival</span></a>
+									<ul id="depth2MenuList_1" class="list">
+										<li><a href="sub1.html">ALL</a></li>
+										<li><a href="#">MEN</a></li>
+										<li><a href="#">WOMEN</a></li>
+									</ul>
+								</li>
+								
+								<li class="menu2 menu">
+									<a href="#" class="bgm"><img src="images/side_icon.gif" alt="icon" width="15" height="12"/><span class="color">Men</span></a>
+									<ul id="depth2MenuList_2" class="list">
+										<li><a href="sub2.html">티셔츠</a></li>
+										<li><a href="#">셔츠</a></li>
+										<li><a href="#">팬츠</a></li>
+										<li><a href="#">자켓 / 베스트</a></li>
+										<li><a href="#">점퍼</a></li>
+										<li><a href="#">코트</a></li>
+										<li><a href="#">니트/가디건</a></li>
+									</ul>
+								</li>
+								<li class="menu3 menu">
+									<a href="#" class="bgm"><img src="images/side_icon.gif" alt="icon" width="15" height="12"/><span class="color">Women</span></a>
+									<ul id="depth2MenuList_3" class="list">
+										<li><a href="#">원피스</a></li>
+										<li><a href="#">티셔츠</a></li>
+										<li><a href="#">셔츠</a></li>
+										<li><a href="#">니트 / 가디건</a></li>
+										<li><a href="#">팬츠</a></li>
+										<li><a href="#">스커트</a></li>
+										<li><a href="#">자켓 / 베스트</a></li>
+										<li><a href="#">점퍼</a></li>
+										<li><a href="#">코트</a></li>
+									</ul>
+								</li>
+								<li class="menu4 menu">
+									<a href="#" class="bgm"><img src="images/side_icon.gif" alt="icon" width="15" height="12"/><span class="color">Accessory</span></a>
+									<ul id="depth2MenuList_4" class="list" >
+										<li><a href="#">가방 / 지갑 / 벨트</a></li>
+										<li><a href="#">슈즈 / 패션용품</a></li>
+										<li><a href="#">골프</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div><!--allmenuIn-->
+				<span class="dim"></span>
+				</div><!--allmenu-->
+				<form method="post" action="#">
+					<fieldset>
+						<legend>검색창</legend>
+						<label for="search">검색</label>
+						<input type="text" id="search" name="search" title="검색"/>
+						<input type="image" id="img_s" src="images/go.gif" alt="검색" width="30" height="27"/>
+					</fieldset>
+				</form>
+				<a href="#" class="go_menu"><img src="images/go_menu.gif" alt="메뉴구성보기" width="23" height="25"/></a>
+			</div><!--middle_head-->
+		</header>
+		<div id="bottom_header">
+			<ul>
+				<li><a href="sub1.html"><img src="images/sub1.gif" alt="new" width="31" height="14"/></a></li>
+				<li><a href="sub2.html"><img src="images/sub2.gif" alt="man" width="31" height="14"/></a></li>
+				<li><a href="#"><img src="images/sub3.gif" alt="woman" width="52" height="14"/></a></li>
+				<li><a href="#"><img src="images/sub4.gif" alt="bag" width="31" height="14"/></a></li>
+				<li><a href="#"><img src="images/sub5.gif" alt="accessory" width="67" height="14"/></a></li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="banner_wrap">
+				<ul class="banner">
+					<li><a href="#"><img src="images/visual1.jpg"  alt="season off 30%" width="375" /></a></li>
+					<li><a href="#"><img src="images/visual2.jpg"  alt="Hazzys Ladies 믿고사는 아이템"/></a></li>
+					<li><a href="#"><img src="images/visual3.jpg"  alt="Goodbye sale 16F/W 12월 한정 sale"/></a></li>
+				</ul>
+				<div class="btn">
+					<a href="#" class="on_btn">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+				</div>
+			</div>
+			<div class="tab">
+				<ul>
+					<li><a href="#"><img src="images/tabmenu1.gif" alt="우수회원" width="58" height="55"/></a></li>
+					<li><a href="#"><img src="images/tabmenu2.gif" alt="할인행사" width="58" height="55"/></a></li>
+					<li><a href="#"><img src="images/tabmenu3.gif" alt="앱 혜택" width="58" height="55"/></a></li>
+					<li><a href="#"><img src="images/tabmenu4.gif" alt="이벤트" width="58" height="55"/></a></li>
+				</ul>
+			</div>
+			<div class="New">
+				<h3><a href="sub1.html"><img src="images/New.gif" alt="new arrival" width="87" height="17"/></a></h3>
+				
+				<h4 class="n_men_h4"><a href="#" class="n_men on">MEN</a></h4>
+				<ul class="n_m">
+					<li><a href="#"><img src="images/new_m1.gif" alt="이미지1" width="90" height="123"/><p>천연퍼트리밍 <br/>구스다운 점퍼<br/><strong>￦468,000</strong></p></a></li>
+					<li><a href="#"><img src="images/new_m2.gif" alt="이미지2" width="90" height="123"/><p>네이비 배색<br/>구스다운 점퍼<br/><strong>￦345,800</strong></p></a></li>
+					<li><a href="#"><img src="images/new_m3.gif" alt="이미지3" width="90" height="123"/><p>블랙 퍼 배색 <br/>퀼팅 다운 점퍼<br/><strong>￦280,200</strong></p></a></li>
+					<li><a href="#"><img src="images/new_m4.gif" alt="이미지4" width="90" height="123"/><p>Phiz라인 레드 울<br/>퍼피 프린트 니트<br/><strong>￦150,500</strong></p></a></li>
+				</ul>
+				
+				<h4 class="n_woman_h4"><a href="#" class="n_women">WOMEN</a></h4>
+				<ul class="n_w">
+					<li><a href="#"><img src="images/new_wm1.gif" alt="이미지1" width="90" height="123"/><p>와인 캐시미어 10%<br/>꽈배기 니트 가디건<br/><strong>￦156,870</strong></p></a></li>
+					<li><a href="#"><img src="images/new_wm2.gif" alt="이미지2" width="90" height="123"/><p>블루 더블 버튼<br/>하프 트렌치코트<br/><strong>￦251,370</strong></p></a></li>
+					<li><a href="#"><img src="images/new_wm3.gif" alt="이미지3" width="90" height="123"/><p>차콜 체크<br/>벨티드 원피스<br/><strong>￦245,070</strong></p></a></li>
+					<li><a href="#"><img src="images/new_wm4.gif" alt="이미지4" width="90" height="123"/><p>블랙 울 혼방<br/>본딩 팬츠<br/><strong>￦137,970</strong></p></a></li>
+				</ul>
+				
+				<div class="new_btn">
+					<span class="left_b1"><a href="#"><img src="images/left.gif" alt="left" width="11" height="18"/></a></span>
+					<span class="right_b1"><a href="#"><img src="images/right.gif" alt="right" width="11" height="18"/></a></span>
+				</div>
+			</div>
+			<div class="Best">
+				<h3><a href="#"><img src="images/Best.gif" alt="best seller" width="87" height="17"/></a></h3>
+				
+				<h4 class="b_men_h4"><a href="#" class="b_men on">MEN</a></h4>
+				<ul class="b_m">
+					<li><a href="#"><img src="images/best_m1.gif" alt="이미지1" width="90" height="123"/><p>라쿤 퍼 빅포켓<br/>구스다운 점퍼<br/><strong>￦289,170</strong></p></a></li>
+					<li><a href="#"><img src="images/best_m2.gif" alt="이미지2" width="90" height="123"/><p>네이비 짚업<br/>배색 니트 자켓<br/><strong>￦163,210</strong></p></a></li>
+					<li><a href="#"><img src="images/best_m3.gif" alt="이미지3" width="90" height="123"/><p>네이비 울 라쿤<br/>구스 다운 점퍼<br/><strong>￦377,370</strong></p></a></li>
+					<li><a href="#"><img src="images/best_m4.gif" alt="이미지4" width="90" height="123"/><p>Phiz라인 레드 울<br/>퍼피 프린트 니트<br/><strong>￦150,500</strong></p></a></li>
+				</ul>
+
+				<h4 class="b_women_h4"><a href="#" class="b_women">WOMEN</a></h4>
+				<ul class="b_w">
+					<li><a href="#"><img src="images/best_wm1.gif" alt="이미지1" width="90" height="123"/><p>솔리드 퍼<br/>구스 다운 점퍼<br/><strong>￦503,280</strong></p></a></li>
+					<li><a href="#"><img src="images/best_wm2.gif" alt="이미지2" width="90" height="123"/><p>네이비 캐시미어<br/>더블 롱 코트<br/><strong>￦452,970</strong></p></a></li>
+					<li><a href="#"><img src="images/best_wm3.gif" alt="이미지3" width="90" height="123"/><p>아이보리 꽈배기<br/>배색 터틀넥 니트<br/><strong>￦156,870</strong></p></a></li>
+					<li><a href="#"><img src="images/new_wm4.gif" alt="이미지4" width="90" height="123"/><p>블랙 울 혼방<br/>본딩 팬츠<br/><strong>￦137,970</strong></p></a></li>
+				</ul>
+				<div class="new_btn">
+					<span class="left_b2"><a href="#"><img src="images/left.gif" alt="left" width="11" height="18"/></a></span>
+					<span class="right_b2"><a href="#"><img src="images/right.gif" alt="right" width="11" height="18"/></a></span>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="top_f">
+			<ul>
+				<li class="f_1"><a href="#"><img src="images/footer1.gif" alt="로그인/회원가입" width="80" height="12"/></a></li>
+				<li class="f_2"><a href="#"><img src="images/footer2.gif" alt="오늘 본 상품" width="57" height="12"/></a></li>
+				<li class="f_3"><a href="#"><img src="images/footer3.gif" alt="주문 배송 조회" width="67" height="12"/></a></li>
+				<li class="f_4"><a href="#"><img src="images/footer4.gif" alt="사이트맵" width="40" height="12"/></a></li>
+				<li class="f_5"><a href="#"><img src="images/footer5.gif" alt="pc버전" width="33" height="12"/></a></li>
+			</ul>
+			</div>
+			<div class="bottom_f">
+			<p><small>Hazzys.com은 (주) LF에서 운영하고 있습니다.<br/>사업자등록번호 : 211-87-87724통신판매업신고 : 제 2010-서울강남-00066호사업자정보확인<br/>대표전화 : 1544-5114팩스 : 031-360-0004이메일 : fashionmaster@lfcorp.com<br/>서울 강남구 언주로 870(주) LF 대표이사 : 오규식<br/>COPYRIGHT &copy; 2014 LF ALL RIGHTS RESERVED.</small></p>
+			</div>
+		</footer>
+	</div>
+ </div>
+ </body>
+</html>

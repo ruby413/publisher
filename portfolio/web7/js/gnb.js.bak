@@ -1,0 +1,15 @@
+	$(document).ready(function(){
+		var timeout;
+		$('.nav').mouseenter(function(){
+			$('.gnb').slideDown(300);
+		})
+		$('.gnb').mouseleave(function(){
+			timeout=setTimeout(function(){
+			$('.gnb').slideUp(300);			
+			},500)
+		})
+		
+		
+	
+	})
+

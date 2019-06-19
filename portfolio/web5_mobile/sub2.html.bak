@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+ <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sub2.css"/>
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/mof.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+ <body>
+ <div id="skipMenu">
+	<a href="#">본문 바로가기</a>
+	<a href="#">주메뉴 바로가기</a>
+ </div>
+<div id="all_wrap">
+<div id="wrap">
+	<header id="header">
+	<p class="btn_menu" title="btn" id="btn">
+			<a href="#" id="btnAllMenuOpen" title="메뉴열기 메뉴닫기"><img src="images/menu.gif" width="28px" height="21px" alt="메뉴열어보기" id="imgAllMenuOpen"/></a>
+	</p>
+		<h1><a href="main.html"><img src="images/h1.gif" width="125px" height="33px" alt="tourtips"/></a></h1>			
+	</header>
+	<div id="allMenuWrap">
+		<div id="gnb" class="header_top">
+		<p class="login">
+			<a href="#">
+			<img src="images/login.gif" width="28px" height="25px" alt="로그인"/>
+			<span class="login_letter">로그인</span>
+			</a>
+		</p>
+		<p class="setting">
+			<a href="#">
+			<img src="images/setting.gif" width="27px" height="26px" alt="로그인"/>
+			<span class="setting_letter">설정</span>
+			</a>
+		</p>
+		</div>
+		<nav>
+			<div id="gnb">
+			<h2 class="skip">주메뉴</h2>
+			<ul>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('1')"><span class="sub"><img src="images/sidemenu1.gif" alt="여행정보" width="113px" height="23px"/></span></a>
+					<div id="depth2MenuList_1" class="menulist1">
+						<ul>
+							<li><a href="sub1.html"><img src="images/sidemenu1-1.gif" alt="인기여행도시" width="82px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu1-2.gif" alt="전문가여행기" width="87px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu1-3.gif" alt="테마여행동영상" width="103px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu1-4.gif" alt="여행준비" width="57px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('2')"><span class="sub sub2"><img src="images/sidemenu2.gif" alt="커뮤니티" width="113px" height="23px"/></span></a>
+					<div id="depth2MenuList_2" class="menulist2">
+						<ul>
+							<li><a href="#"><img src="images/sidemenu2-1.gif" alt="전체글보기" width="81px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu2-2.gif" alt="여행후기&팁" width="97px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu2-3.gif" alt="Q&A" width="52px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu2-4.gif" alt="내 글 모아보기" width="96px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('3')"><span class="sub"><img src="images/sidemenu3.gif" alt="가이드북" width="113px" height="23px"/></span></a>
+					<div id="depth2MenuList_3" class="menulist3">
+						<ul>
+							<li><a href="#"><img src="images/sidemenu3-1.gif" alt="투어팁스 가이드북/맵북" width="167px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu3-2.gif" alt="여행자료실" width="70px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('4')"><span class="sub sub4"><img src="images/sidemenu4.gif" alt="항공권비교" width="127px" height="23px"/></span></a>
+					<div id="depth2MenuList_4" class="menulist4">
+						<ul>
+							<li><a href="sub2.html"><img src="images/sidemenu4-1.gif" alt="최저가항공권검색" width="123px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu4-2.gif" alt="항공+에어텔" width="91px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu4-3.gif" alt="무료항공이벤트" width="103px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('5')"><span class="sub"><img src="images/sidemenu5.gif" alt="숙박비교" width="117px" height="23px"/></span></a>
+					<div id="depth2MenuList_5" class="menulist5">
+						<ul>
+							<li><a href="#"><img src="images/sidemenu5-1.gif" alt="최저가 호텔 검색" width="109px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu5-2.gif" alt="무료호텔이벤트" width="104px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			</div>
+		</nav>
+	</div>
+	<div id="container">
+		<div class="h2">
+			<span><img src="images/h2_2.gif" alt="항공권비교" width="375px" height="49px"/></span>
+		</div>
+		<nav class="sub2nav">
+			<ul>
+				<li><img src="images/sub2menu1.gif" alt="최저가항공" width="60px" height="19px"/></li>
+				<li><a href="#"><img src="images/sub2menu2.gif" alt="항공+에어텔" width="65px" height="18px"/></a></li>
+				<li><a href="#"><img src="images/sub2menu3.gif" alt="무료항공이벤트" width="86px" height="18px"/></a></li>
+			</ul>
+		</nav>
+
+		<div class="flight">
+			<p><img src="images/sub2contents.gif" width="225px" height="15px" alt="전세계 항공권 최저가를 실시간으로 비교해 드립니다."/></p>
+			<form method="post" action="#">
+			<fieldset>
+			<legend>항공권비교</legend>
+				<div class="choice">
+				<input type="radio" id="radio1" name="radio1" checked="checked"/>
+				<label for="radio1">왕복</label>
+				<input type="radio" id="radio2" name="radio2"/>
+				<label for="radio2">편도</label>
+				</div>
+				<div class="choice2">
+				<p><a href="#" class="go"><span>출발지</span>
+					<label for="post1" class="skip">출발지</label>
+					<input type="text" id="post1" name="post" placeholder="인천국제공항(ICN)"/></a></p>
+				<p><a href="#" class="come"><span>도착지</span>
+					<label for="post2" class="skip">도착지</label>
+					<input type="text" id="post2" name="post2" placeholder="도시명"/></a></p>
+				<p><a href="#" class="go_date"><span>출발일</span>
+					<label for="post3" class="skip">출발일</label>
+					<input type="text" id="post3" name="post3" title="출발일" placeholder="선택"/></a></p>
+				<p><a href="#" class="come_date"><span>도착일</span>
+					<label for="post4" class="skip">도착일</label>
+					<input type="text" id="post4" name="post4" placeholder="선택" title="도착일"/></a></p>
+				<div class="num">
+				<p><span>성인</span>
+					<label for="post5" class="skip">성인</label>
+					<input type="text" placeholder="1" id="post5" name="post5"/><span>명</span></p>
+				<p><span>아동</span>
+					<label for="post6" class="skip">아동</label>
+					<input type="text" placeholder="0" id="post6" name="post6"/><span>명</span></p>
+				<p><span>유아</span>
+					<label for="post7" class="skip">유아</label>
+					<input type="text" placeholder="0" id="post7" name="post7"/><span>명</span></p>
+				<p><span class="adult">만 12세 이상</span><span class="child">만 2 - 11세</span><span class="baby">만 2세 미만</span></p>
+				</div>
+				<ul class="contents_btn">
+				<li><a href="#"><img src="images/sub2btn2.gif" alt="검색하기" width="49px" height="16px"/></a></li>
+				<li><a href="#"><img src="images/sub2btn3.gif" alt="도움말" width="38px" height="16px"/></a></li>
+			</ul>
+			</fieldset>
+			</form>
+			
+			</div>
+		</div>
+		<p class="address"><a href="#"><img src="images/add.gif" alt="배너광고" width="375px" height="61px"/></a></p>
+	</div>
+</div>
+ </body>
+</html>

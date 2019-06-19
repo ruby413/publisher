@@ -1,0 +1,45 @@
+function infoAdd(){
+		var userName=$('#name').val();
+		if(userName==""){
+			alert('이름을 입력해 주세요.')
+				$('#name').focus();
+				return;
+		}
+
+		var userPhone=$('#tel').val();
+		if(userPhone==""){
+			alert('전화번호를 입력해 주세요.')
+				$('#tel').focus();
+				return;
+		}
+
+		var userEmail=$('#email').val();
+		if(userEmail==""){
+			alert('이메일을 입력해 주세요.')
+				$('#email').focus();
+				return;
+		}
+
+		var userContent=$('#content').val();
+		if(userContent==""){
+			alert('내용을 입력해 주세요.')
+				$('#content').focus();
+				return;
+		}
+
+
+}
+
+	$(document).ready(function(){
+	 $('.btn').click(function(e){
+		e.preventDefault();
+			infoAdd();
+	 })
+	 $('#content').keyup(function(e){
+		//e.preventDefault();
+		//which속성은 키보드 키 또는 마우스 버튼이 이벤트에 대해 눌려졌는지를 반환
+			if(e.which==13){//13은 keycode의 enter값
+			infoAdd();
+			}
+	 })
+	})

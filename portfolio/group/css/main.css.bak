@@ -1,0 +1,105 @@
+@charset:'utf-8';
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+#container{width:1600px;
+		   height:1200px;
+		   margin:20px auto;
+		   background:#e6e7e8;}
+.btn{margin:40px 185px;
+	 overflow:hidden;}
+.btn section{float:left;
+			 margin:20px;}
+.box1{width:367px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box1 a:link{position:absolute;
+			 top:0;
+			 left:-367px;}
+.box1 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+.box2{width:367px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box2 a:link{position:absolute;
+			 top:0;
+			 left:-367px;}
+.box2 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+.box3{width:367px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box3 a:link{position:absolute;
+			 top:0;
+			 left:-367px;}
+.box3 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+.box4{width:367px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box4 a:link{position:absolute;
+			 top:0;
+			 left:-367px;}
+.box4 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+.box5{width:369px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box5 a:link{position:absolute;
+			 top:0;
+			 left:-369px;}
+.box5 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+.box6{width:367px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box6 a:link{position:absolute;
+			 top:0;
+			 left:-367px;}
+.box6 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+.box7{width:367px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box7 a:link{position:absolute;
+			 top:0;
+			 left:-367px;}
+.box7 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+.box8{width:367px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box8 a:link{position:absolute;
+			 top:0;
+			 left:-367px;}
+.box8 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+.box9{width:367px;
+	 height:258px;
+	 overflow:hidden;
+	 position:relative}
+.box9 a:link{position:absolute;
+			 top:0;
+			 left:-367px;}
+.box9 a:hover{position:absolute;
+			  top:0;
+			  left:0;}
+

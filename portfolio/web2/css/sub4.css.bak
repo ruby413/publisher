@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+
+#container_wrap{width:100%}
+.contain{width:100%;
+		 margin:0 auto;}
+.visual{width:1600px;
+		height:391px;
+		margin:0 auto;
+		background:url(../sub_img/sub4_visual.jpg) no-repeat 0 0;}
+.visual p{height:5px;
+		  background-color:rgba(17,112,147,0.92);
+		  font-weight:bold;
+		  color:#dedede;
+		  padding:15px 250px 20px 0px;
+		  text-align:right;
+		  font-size:12px;
+		  letter-spacing:2px;}
+
+.visual p span{margin-left:15px;}
+.sub_content{width:1200px;
+			 margin:80px auto;}
+
+.it1{font-size:14px;
+	 text-align:center;
+	 font-weight:bold;
+	 margin:0 0 40px 80px}
+.it1 span{color:#0020c2;}
+.sec2{margin-top:70px;
+	  height:53px;
+	  background:#ebebeb;
+	  overflow:hidden;}
+.search_fi{float:right;
+		   padding: 13px 30px 0 0;}
+.go{width:70px;
+	padding:6px 10px;
+	background:#fff;
+	border:1px solid #c3c3c3;
+	font-weight:bold;
+	margin-left:2px;}
+.search_f{vertical-align:middle;}
+.search_fi a{color:#505050;}
+.go_text{width:230px;
+		 height:23px;
+		 background:#fff;
+		 border:1px solid #c3c3c3;
+		 padding-left:10px;}
+
+.sec3{font-weight:bold;
+	  margin:30px 0;}
+.sec3 span{margin-right: 10px;}
+.now{text-decoration:underline;
+	 color:#8a8a8a;}
+.year a{color:#c3c3c3;}
+
+.sec4{margin-bottom:20px;}
+table{border-collapse:collapse;
+	  border-top:2px solid #c3c3c3;
+	  border-bottom:2px solid #c3c3c3;
+	  width:1200px;}
+thead{border-bottom:2px solid #c3c3c3;
+	  color:#6f6f6f;}
+tr{border-bottom:1px solid #e3e3e3;}
+th,td{padding:15px 10px;}
+.num{text-align:center;}
+td{font-weight:bold;
+   color:#c3c3c3}
+.sec4 a{color:#6f6f6f;}
+.sec4 a:hover{text-decoration:underline}
+
+.sec5{overflow:hidden;
+	  width:400px;
+	  margin:0 auto;}
+.sec5 ul{margin-left:40px}
+.sec5 span{margin-top:5px}
+.left{float:left;}
+.right{float:right;}
+.sec5 li{display:inline;
+		 margin:10px;
+		 font-weight:bold;
+		 vertical-align:center;}
+.sec5 li a{color:#929292;}
+.now_a{color:#656565;
+	   text-decoration:underline;}

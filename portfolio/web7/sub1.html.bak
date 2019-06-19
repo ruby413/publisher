@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/sub1.css"/>
+  <script src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/gnb.js"></script>
+	<script type="text/javascript" src="js/banner_if.js"></script>
+	<script type="text/javascript" src="js/header_sub.js"></script>
+	<script type="text/javascript" src="js/gnb_sub.js"></script>
+	<script type="text/javascript" src="js/tab.js"></script>
+	<script language="javascript" type="text/javascript">
+	windowResize();
+	$(window).resize(windowResize);
+  </script>
+ </head>
+ <body>
+ <div id="wrap">
+    <div id="skipMenu">
+		<a href="#container">본문바로가기</a>
+	</div>
+	<header id="header">
+	<div class="header_wrap">
+		<span class="pad menu_bar"><a href="#"><img src="images/menubar_pad.gif" alt="메뉴보기"/></a></span>
+		<h1><a href="main.html"><img src="images/h1.gif" alt="통해"/></a></h1>
+		<nav class="nav no_pad">
+			<ul class="gnb_wrap">
+				<li><a href="#"><img src="images/gnb1.gif" alt="회사소개"/></a>
+				</li>
+				<li><a href="#"><img src="images/gnb2.gif" alt="사업영역"/></a>
+				</li>
+				<li><a href="#"><img src="images/gnb3.gif" alt="주요공사실적"/></a>
+				</li>
+				<li><a href="#"><img src="images/gnb4.gif" alt="면허보유현황"/></a>
+				</li>
+				<li><a href="#"><img src="images/gnb5.gif" alt="알림마당"/></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="gnb_d">
+	<div class="gnb_d2">
+	<ul class="gnb no_pad">
+		<li>
+			<ul class="fir">
+				<li><a href="#">대표 인사말</a></li>
+				<li><a href="#">회사개요</a></li>
+				<li><a href="#">회사연혁</a></li>
+				<li><a href="#">조직도</a></li>
+				<li><a href="#">회사위치</a></li>
+			</ul>
+		</li>
+		<li>
+			<ul class="sec">
+				<li><a href="#">태양광발전사업</a></li>
+				<li><a href="#">전기설비공사</a></li>
+				<li><a href="#">정보통신설비</a></li>
+				<li><a href="#">소방설비공사</a></li>
+			</ul>
+		</li>
+		<li>
+			<ul class="thr">
+				<li><a href="#">태양광발전사업</a></li>
+				<li><a href="#">플랜트 전기공사</a></li>
+				<li><a href="#">건축 전기공사</a></li>
+				<li><a href="#">특수 실적공사</a></li>
+				<li><a href="#">해외공사</a></li>
+			</ul>
+		</li>
+		<li>
+			<ul class="four">
+				<li><a href="#">전기공사업</a></li>
+				<li><a href="#">정보통신공사업</a></li>
+				<li><a href="#">전문소방시설공사업</a></li>
+				<li><a href="#">해외공사업</a></li>
+				<li><a href="#">신재생에너지사업</a></li>
+				<li><a href="#">우정전공사시공인증</a></li>
+				<li><a href="#">ISO인증</a></li>
+			</ul>
+		</li>
+		<li>
+			<ul class="fif">
+				<li><a href="#">공지사항</a></li>
+				<li><a href="#">자료실</a></li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+	</div>
+	<nav class="pad">
+	<div id="allmenuH" class="allmenu">
+		<div class="allmenuIn">
+			<ul class="gnb_wrap2">
+				<li><a href="#"  class="bgm">회사소개</a>
+					<ul id="depth2MenuList_1" class="list">
+						<li><a href="#">대표 인사말</a></li>
+						<li><a href="#">회사개요</a></li>
+						<li><a href="#">회사연혁</a></li>
+						<li><a href="#">조직도</a></li>
+						<li><a href="#">회사위치</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="bgm">사업영역</a>
+					<ul id="depth2MenuList_2"  class="list">
+						<li><a href="#">태양광발전사업</a></li>
+						<li><a href="#">전기설비공사</a></li>
+						<li><a href="#">정보통신설비</a></li>
+						<li><a href="#">소방설비공사</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="bgm">주요공사실적</a>
+					<ul class="list">
+						<li><a href="#">태양광발전사업</a></li>
+						<li><a href="#">플랜트 전기공사</a></li>
+						<li><a href="#">건축 전기공사</a></li>
+						<li><a href="#">특수 실적공사</a></li>
+						<li><a href="#">해외공사</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="bgm">면허보유현황</a>
+					<ul id="depth2MenuList_3" class="list">
+						<li><a href="#">전기공사업</a></li>
+						<li><a href="#">정보통신공사업</a></li>
+						<li><a href="#">전문소방시설공사업</a></li>
+						<li><a href="#">해외공사업</a></li>
+						<li><a href="#">신재생에너지사업</a></li>
+						<li><a href="#">우정전공사시공인증</a></li>
+						<li><a href="#">ISO인증</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="bgm">알림마당</a>
+					<ul id="depth2MenuList_4" class="list">
+						<li><a href="#">공지사항</a></li>
+						<li><a href="#">자료실</a></li>
+					</ul>
+				</li>
+			</ul>
+			</div>
+			<span class="gnbdim"></span>
+		</div>
+		</nav>
+	</header>
+	
+	<div id="container">
+		<div class="lnb no_pad">
+			<h3><img src="images/sub1_menu.gif" alt="주요공사실적"/></h3>
+			<ul>
+				<li class="on"><a href="#">태양광 발전사업</a></li>
+				<li><a href="#">플랜트 전기공사</a></li>
+				<li><a href="#">건축 전기공사</a></li>
+				<li><a href="#">특수 실적공사</a></li>
+				<li><a href="#">해외공사</a></li>
+			</ul>
+		</div>
+		<div class="lnb2 pad no_phone">
+			<h3 class="skip">주요공사실적</h3>
+			<ul>
+				<li class="on"><a href="#">태양광<span class="no_phone"> 발전사업</span></a></li>
+				<li><a href="#">플랜트 전기<span class="no_phone">공사</span></a></li>
+				<li><a href="#">건축 전기<span class="no_phone">공사</span></a></li>
+				<li><a href="#">특수 실적<span class="no_phone">공사</span></a></li>
+				<li><a href="#">해외공사</a></li>
+			</ul>
+		</div>
+		<div class="sub_contents">
+			<p class="where">
+				<span class="nobg no_pad"><img src="images/sub_home.gif" alt="홈"/></span>
+				<span class="nobg pad"><img src="images/sub_home_pad.gif" alt="홈"/></span>
+				<span>주요공사실적</span>
+				<span>태양광발전사업</span>
+			</p> 
+			<h4>주요공사실적 <span>- 태양광 발전사업</span></h4>
+			<table summary="(주)통해 주요공사실적입니다."  class="no_pad">
+				<caption>주요공사실적</caption>
+				<colgroup>
+					<col width="8%"/>
+					<col width="15%"/>
+					<col width="32%"/>
+					<col width="15%"/>
+					<col width="10%"/>
+					<col width="20%"/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th>NO</th>
+						<th></th>
+						<th>공사명</th>
+						<th>발주처</th>
+						<th>원발주처</th>
+						<th>공사기간</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>154</td>
+						<td><a href="#"><img src="images/subimg1.gif" alt="사진1"/></a></td>
+						<td class="left_s"><a href="#">오양테크 발전소 건설 공사(469.92KW)</a></td>
+						<td>오양테크발전소</td>
+						<td>오양테크</td>
+						<td>2016.09.19 - 2016.11.30</td>
+					</tr>
+					
+					<tr>
+						<td>153</td>
+						<td><a href="#"><img src="images/subnoimg.gif" alt="no img"/></a></td>
+						<td class="left_s"><a href="#">VIETNAM AN HOA PRINT Project</a></td>
+						<td>한솔이엠이(주)</td>
+						<td></td>
+						<td>2010.11.01 - 2010.12.31</td>
+					</tr>
+					
+					<tr>
+						<td>152</td>
+						<td><a href="#"><img src="images/subimg3.gif" alt="사진3"/></a></td>
+						<td class="left_s"><a href="#">고속국도 제 30호선 상주-영덕간 제2공구 전기공사</a></td>
+						<td>한국도로공사</td>
+						<td></td>
+						<td>2016.05.30 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>151</td>
+						<td><a href="#"><img src="images/subimg4.gif" alt="사진4"/></a></td>
+						<td class="left_s"><a href="#">원익머트리얼즈 S-PJT 전기계장공사</a></td>
+						<td>(주)원익머트리얼즈</td>
+						<td></td>
+						<td>2016.05.13 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>150</td>
+						<td><a href="#"><img src="images/subnoimg.gif" alt="no img"/></a></td>
+						<td class="left_s"><a href="#">충훈고 다목적체육관 증축 소방(전기/기계) 공사</a></td>
+						<td>경기도교육청 경기도<br/>안양과천교육지원청</td>
+						<td></td>
+						<td>2016.05.13 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>149</td>
+						<td><a href="#"><img src="images/subnoimg.gif" alt="no img"/></a></td>
+						<td class="left_s"><a href="#">천안청수지구 에이스법조타워 신축공사</a></td>
+						<td>(주)정우건설산업</td>
+						<td></td>
+						<td>2016.06.10 - 2017.10.24</td>
+					</tr>
+
+					<tr>
+						<td>148</td>
+						<td><a href="#"><img src="images/subimg8.gif" alt="사진8"/></a></td>
+						<td class="left_s"><a href="#">고속국도 제65호선 울산,포항간 제5공구 전기공사</a></td>
+						<td>한국도로공사</td>
+						<td></td>
+						<td>2015.01.14 - 2016.06.15</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table summary="(주)통해 주요공사실적입니다."  class="pad no_phone">
+				<caption>주요공사실적</caption>
+				<colgroup>
+					<col width="10%"/>
+					<col width="45%"/>
+					<col width="15%"/>
+					<col width="10%"/>
+					<col width="20%"/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th>NO</th>
+						<th>공사명</th>
+						<th>발주처</th>
+						<th>원발주처</th>
+						<th>공사기간</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>154</td>
+						<td class="left_s"><a href="#">오양테크 발전소 건설 공사(469.92KW)</a></td>
+						<td>오양테크발전소</td>
+						<td>오양테크</td>
+						<td>2016.09.19 - 2016.11.30</td>
+					</tr>
+					
+					<tr>
+						<td>153</td>
+						<td class="left_s"><a href="#">VIETNAM AN HOA PRINT Project</a></td>
+						<td>한솔이엠이(주)</td>
+						<td></td>
+						<td>2010.11.01 - 2010.12.31</td>
+					</tr>
+					
+					<tr>
+						<td>152</td>
+						<td class="left_s"><a href="#">고속국도 제 30호선 상주-영덕간 제2공구 전기공사</a></td>
+						<td>한국도로공사</td>
+						<td></td>
+						<td>2016.05.30 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>151</td>
+						<td class="left_s"><a href="#">원익머트리얼즈 S-PJT 전기계장공사</a></td>
+						<td>(주)원익머트리얼즈</td>
+						<td></td>
+						<td>2016.05.13 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>150</td>
+						<td class="left_s"><a href="#">충훈고 다목적체육관 증축 소방(전기/기계) 공사</a></td>
+						<td>경기도교육청 경기도<br/>안양과천교육지원청</td>
+						<td></td>
+						<td>2016.05.13 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>149</td>
+						<td class="left_s"><a href="#">천안청수지구 에이스법조타워 신축공사</a></td>
+						<td>(주)정우건설산업</td>
+						<td></td>
+						<td>2016.06.10 - 2017.10.24</td>
+					</tr>
+
+					<tr>
+						<td>148</td>
+						<td class="left_s"><a href="#">고속국도 제65호선 울산,포항간 제5공구 전기공사</a></td>
+						<td>한국도로공사</td>
+						<td></td>
+						<td>2015.01.14 - 2016.06.15</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table summary="(주)통해 주요공사실적입니다."  class="phone">
+				<caption>주요공사실적</caption>
+				<colgroup>
+					<col width="10%"/>
+					<col width="55%"/>
+					<col width="15%"/>
+					<col width="20%"/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th>NO</th>
+						<th>공사명</th>
+						<th>발주처</th>
+						<th>공사기간</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>154</td>
+						<td class="left_s"><a href="#">오양테크 발전소 건설 공사(469.92KW)</a></td>
+						<td>오양테크발전소</td>
+						<td>2016.09.19 - 2016.11.30</td>
+					</tr>
+					
+					<tr>
+						<td>153</td>
+						<td class="left_s"><a href="#">VIETNAM AN HOA PRINT Project</a></td>
+						<td>한솔이엠이(주)</td>
+						<td>2010.11.01 - 2010.12.31</td>
+					</tr>
+					
+					<tr>
+						<td>152</td>
+						<td class="left_s"><a href="#">고속국도 제 30호선 상주-영덕간 제2공구 전기공사</a></td>
+						<td>한국도로공사</td>
+						<td>2016.05.30 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>151</td>
+						<td class="left_s"><a href="#">원익머트리얼즈 S-PJT 전기계장공사</a></td>
+						<td>(주)원익머트리얼즈</td>
+						<td>2016.05.13 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>150</td>
+						<td class="left_s"><a href="#">충훈고 다목적체육관 증축 소방(전기/기계) 공사</a></td>
+						<td>경기도교육청 경기도<br/>안양과천교육지원청</td>
+						<td>2016.05.13 - 2016.12.31</td>
+					</tr>
+
+					<tr>
+						<td>149</td>
+						<td class="left_s"><a href="#">천안청수지구 에이스법조타워 신축공사</a></td>
+						<td>(주)정우건설산업</td>
+						<td>2016.06.10 - 2017.10.24</td>
+					</tr>
+
+					<tr>
+						<td>148</td>
+						<td class="left_s"><a href="#">고속국도 제65호선 울산,포항간 제5공구 전기공사</a></td>
+						<td>한국도로공사</td>
+						<td>2015.01.14 - 2016.06.15</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="numb">
+				<span><a href="#"><img src="images/sub_prev.gif" alt="이전"/></a></span>
+				<ul>
+					<li class="now">1</li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li class="no_phone"><a href="#">6</a></li>
+					<li class="no_phone"><a href="#">7</a></li>
+					<li class="no_phone"><a href="#">8</a></li>
+					<li class="no_phone"><a href="#">9</a></li>
+					<li class="no_phone"><a href="#">10</a></li>
+				</ul>
+				<span><a href="#"><img src="images/sub_next.gif" alt="다음"/></a></span>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer">
+		<div class="footer_wrap">
+		<h2 class="f_h2"><img src="images/footer_h1.gif" alt="통해"/></h2>
+		<div class="p">
+		<p class="add">경기도 안양시 동안구 흥안대로 415 두산벤처다임 602호 (서관) TEL : 031) 478-3434 FAX : 031) 478-3430 Email : tonghae@hanmail.net</p>
+		<p class="copy">Copyright  (c) TONGHAE CO., LTD. All Right Reserved</p>
+		</div>
+
+		<form method="post" action="#">
+			<fieldset>
+				<legend>바로가기</legend>
+				<select name="go">
+					<option value="go" selected="selected">한국에너지공단</option>
+					<option value="go">신재생에너지 데이터센터</option>
+					<option value="go">문화재 공간정보 서비스</option>
+					<option value="go">토지이용규제정보서비스</option>
+					<option value="go">한국전기안전공사</option>
+					<option value="go">태양광 통합모니터링</option>
+					<option value="go">TONGHAE ERP시스템</option>
+					<option value="go">TONGHAE 지명원</option>
+				</select>
+			</fieldset> 
+		</form>
+		</div>
+	</footer>
+ </div>
+ </body>
+</html>

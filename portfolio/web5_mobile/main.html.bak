@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+ <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/mof.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/visual.js"></script>
+	<script type="text/javascript" src="js/start.js"></script>
+	<!--<script type="text/javascript" src="js/banner.js"></script>-->
+ <body>
+ <!--<p class="start">
+ </p>-->
+ <div id="skipMenu">
+	<a href="#">본문 바로가기</a>
+	<a href="#">주메뉴 바로가기</a>
+ </div>
+<div id="all_wrap">
+<div id="wrap">
+	<header id="header">
+	<p class="btn_menu" title="btn" id="btn">
+			<a href="#" id="btnAllMenuOpen" title="메뉴열기 메뉴닫기"><img src="images/menu.gif" width="28px" height="21px" alt="메뉴열어보기" id="imgAllMenuOpen"/></a>
+	</p>
+		<h1><a href="main.html"><img src="images/h1.gif" width="125px" height="33px" alt="tourtips"/></a></h1>		
+	</header>
+	<div id="allMenuWrap">
+		<div id="gnb" class="header_top">
+		<p class="login">
+			<a href="#">
+			<img src="images/login.gif" width="28px" height="25px" alt="로그인"/>
+			<span class="login_letter">로그인</span>
+			</a>
+		</p>
+		<p class="setting">
+			<a href="#">
+			<img src="images/setting.gif" width="27px" height="26px" alt="로그인"/>
+			<span class="setting_letter">설정</span>
+			</a>
+		</p>
+		</div>
+		<nav>
+			<div id="gnb">
+			<h2 class="skip">주메뉴</h2>
+			<ul>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('1')"><span class="sub"><img src="images/sidemenu1.gif" alt="여행정보" width="113px" height="23px"/></span></a>
+					<div id="depth2MenuList_1" class="menulist1">
+						<ul>
+							<li><a href="sub1.html"><img src="images/sidemenu1-1.gif" alt="인기여행도시" width="82px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu1-2.gif" alt="전문가여행기" width="87px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu1-3.gif" alt="테마여행동영상" width="103px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu1-4.gif" alt="여행준비" width="57px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('2')"><span class="sub sub2"><img src="images/sidemenu2.gif" alt="커뮤니티" width="113px" height="23px"/></span></a>
+					<div id="depth2MenuList_2" class="menulist2">
+						<ul>
+							<li><a href="#"><img src="images/sidemenu2-1.gif" alt="전체글보기" width="81px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu2-2.gif" alt="여행후기&팁" width="97px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu2-3.gif" alt="Q&A" width="52px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu2-4.gif" alt="내 글 모아보기" width="96px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('3')"><span class="sub"><img src="images/sidemenu3.gif" alt="가이드북" width="113px" height="23px"/></span></a>
+					<div id="depth2MenuList_3" class="menulist3">
+						<ul>
+							<li><a href="#"><img src="images/sidemenu3-1.gif" alt="투어팁스 가이드북/맵북" width="167px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu3-2.gif" alt="여행자료실" width="70px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('4')"><span class="sub sub4"><img src="images/sidemenu4.gif" alt="항공권비교" width="127px" height="23px"/></span></a>
+					<div id="depth2MenuList_4" class="menulist4">
+						<ul>
+							<li><a href="sub2.html"><img src="images/sidemenu4-1.gif" alt="최저가항공권검색" width="123px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu4-2.gif" alt="항공+에어텔" width="91px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu4-3.gif" alt="무료항공이벤트" width="103px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"  onclick="toggleDepth1MenuGroup('5')"><span class="sub"><img src="images/sidemenu5.gif" alt="숙박비교" width="117px" height="23px"/></span></a>
+					<div id="depth2MenuList_5" class="menulist5">
+						<ul>
+							<li><a href="#"><img src="images/sidemenu5-1.gif" alt="최저가 호텔 검색" width="109px" height="17px"/></a></li>
+							<li><a href="#"><img src="images/sidemenu5-2.gif" alt="무료호텔이벤트" width="104px" height="17px"/></a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			</div>
+		</nav>
+	</div>
+	<div id="container">
+		<div class="visual">
+			<img src="images/visual.jpg" alt="계획하신 여행지를 선택하세요" width="375px" height="262px" class="visual_bg"/>
+			<div class="l_rbtn">
+				<span class="play"><a href="#"><img src="images/play.png" alt="play" width="17px" height="17px"/></a></span>
+				<span class="stop"><a href="#"><img src="images/stop.png" alt="stop" width="17px" height="17px"/></a></span>
+			</div>
+			<div class="over">
+			<div class="travel">
+				<ul>
+					<li><a href="#"><img src="images/visual1.png" alt="홍콩" width="98px" height="102px"/></a></li>
+					<li><a href="#"><img src="images/visual2.png" alt="삿포로" width="98px" height="102px"/></a></li>
+					<li><a href="#"><img src="images/visual4.png" alt="태국" width="98px" height="102px"/></a></li>
+				</ul>
+				<ul>
+					<li><a href="#"><img src="images/visual3.png" alt="유럽" width="98px" height="102px"/></a></li>
+					<li><a href="#"><img src="images/visual7.png" alt="보라카이" width="98px" height="102px"/></a></li>
+					<li><a href="#"><img src="images/visual6.png" alt="푸켓" width="98px" height="102px"/></a></li>
+				</ul>
+				<ul>
+					<li><a href="#"><img src="images/visual8.png" alt="미국" width="98px" height="102px"/></a></li>
+					<li><a href="#"><img src="images/visual5.png" alt="캐나다" width="98px" height="102px"/></a></li>
+					<li><a href="#"><img src="images/visual9.png" alt="괌" width="98px" height="102px"/></a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+
+		<div class="btn">
+			<ul id="b1">
+				<li class="btn1"><a href="sub1.html"><img src="images/btn1.gif" alt="여행정보" width="57px" height="72px"/></a></li>
+				<li class="btn2"><a href="#"><img src="images/btn2.gif" alt="가이드북" width="53px" height="71px"/></a></li>
+			</ul>
+			<ul id="b2">
+				<li class="btn3"><a href="sub2.html"><img src="images/btn3.gif" alt="항공편비교" width="57px" height="72px"/></a></li>
+				<li class="btn4"><a href="#"><img src="images/btn4.gif" alt="숙박비교" width="53px" height="71px"/></a></li>
+			</ul>
+		</div>
+		<p class="address"><a href="#"><img src="images/add.gif" alt="배너광고" width="375px" height="61px"/></a></p>
+	</div>
+</div>
+</div>
+ </body>
+</html>

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Document</title>
+  		<style>
+	body, div, ul, li, a, img, span, p, h2, section, nav, footer{margin:0; padding:0;}
+	ul{list-style:none;}
+	img{border:none;
+		vertical-align:top;}
+	a{text-decoration:none;
+	  color:#333;}
+	body{font-size:12px;
+		 color:#333;
+		 font-family:"돋움",dotum;
+		 background:#bbdde9;
+		 width:100%;
+		 height:100%;}
+	#wrap{width:1500px;
+		  margin:30px auto;}
+	nav{margin-bottom:80px;}
+	nav ul{overflow:hidden;
+		   width:1370px;
+		   margin:0 auto}
+	nav ul li{float:left;}
+	footer{padding-top:100px;
+		   width:1400px;
+		   margin:0 auto;}
+		   
+	.dim{background-color:rgba(0,0,0,0);}
+	span.dim:hover{background-color:rgba(0,0,0,0.2);}
+	.language{float:left;
+			  margin:60px 0 0 80px;}
+	.home{background:url(images/home_icon_bg.png) no-repeat center center;
+	   width:220px;
+	   height:219px;
+	   position:absolute;
+	   top:370px;
+	   right:-25px;
+	   position:fixed;
+	   z-index:9999}
+	 ul{position:relative;}
+	.first{position:absolute;
+		   top:112px;
+		   left:75px;}
+	.second{position:absolute;
+		   top:167px;
+		   left:77px;}
+	/*sub6*/
+
+	#sub6{width:1400px;
+		  height:1050px;
+		   margin:0 auto;}
+	.content1_sub6{overflow:hidden;}
+	.before_sub6{float:left;
+				 margin:30px 20px 0 80px;
+				 padding-top:80px;
+				 width:350px;}
+	h2{font-size:24px;
+	   color:#7f082c;
+	   letter-spacing:-1px;
+	   text-align:center;}
+	.sub6_bf{display:block;
+			 text-align:center;
+			 margin-top:20px}
+	.before_sub6 .strong{display:block;
+						 text-align:center;
+						 margin:40px 0 0 0px;}
+    .before_sub6 .small{font-size:14px;
+					   font-weight:bold;
+					   display:block;
+					   margin-left:0px;
+					   text-align:center;}
+	.nxt_sub6{float:left;
+			  margin:300px 30px}
+	.after_sub6{background:url(images/pt6_a_bg.gif) no-repeat 0 0;
+			  width:644px;
+			  height:635px;
+			  float:left;
+			  margin:0 80px;
+			  position:relative;}
+	.main1_sub6{position:absolute;
+				  top:149px;
+				  left:65px;}
+	.main2_sub6{position:absolute;
+				  top:106px;
+				  right:39px;}
+
+	.sub6_dim1{width:213px;
+			  height:372px;
+			  position:absolute;
+			  top:0px;
+			  left:0px}
+	span.sub6_dim1:hover{background-color:rgba(0,0,0,0.3)}
+	.sub6_dim2{width:253px;
+			  height:415px;
+			  position:absolute;
+			  top:0px;
+			  left:0px}
+	span.sub6_dim2:hover{background-color:rgba(0,0,0,0.3)}
+
+	.content2_sub6{overflow:hidden;
+				   width:1380px;
+				   height:340px;}
+	.sub_sub6{float:left;
+			  width:539px;
+			  margin-left:110px;
+			  margin-top:50px;}
+	.sub_sub6 ul{overflow:hidden;}
+	.sub_sub6 li{float:left;
+				 margin:0 30px;
+				 position:relative;}
+	.sub6_dim1_s{width:177px;
+				height:322px;
+				position:absolute;
+			    top:0px;
+			    left:0px}
+	.sub6_dim2_s{width:177px;
+				height:322px;
+				position:absolute;
+			    top:0px;
+			    left:0px}
+</style>
+ </head>
+ <body>
+ <div class="home">
+		<ul>
+			<li class="first"><a href="main.html"><img src="images/home.gif" alt="home"/></a></li>
+			<li class="second"><a href="myname.html"><img src="images/iam.gif" alt="iam"/></a></li>
+		</ul>
+</div>
+  <div id="wrap">
+	<nav>
+		<ul>
+			<li><a href="sub1.html"><img src="images/pt1_off.gif" alt="도서관"/></a></li>
+			<li><a href="sub2.html"><img src="images/pt2_off.gif" alt="웅진"/></a></li>
+			<li><a href="sub3.html"><img src="images/pt3_off.gif" alt="망고케이스"/></a></li>
+			<li><a href="sub4.html"><img src="images/pt4_off.gif" alt="통해"/></a></li>
+			<li><a href="sub5.html"><img src="images/pt5_off.gif" alt="정병원"/></a></li>
+			<li><a href="sub6.html"><img src="images/pt6_on.gif" alt="Tourtips"/></a></li>
+			<li><a href="sub7.html"><img src="images/pt7_off.gif" alt="헤지스"/></a></li>
+			<li><a href="sub8.html"><img src="images/pt8_off.gif" alt="배달통"/></a></li>
+		</ul>
+	</nav>
+	
+
+	<div id="sub6">
+		<div class="content1_sub6">
+			<section class="before_sub6">
+				<a href="http://m.tourtips.com/">
+				<h2>Before</h2>
+				<p class="sub6_bf"><img src="images/pt6_b.gif" alt="tourtips 이전"/></p>
+				<p><span class="strong"><img src="images/h3_sub6.gif" alt="tourtips"/></span><span class="small">http://m.tourtips.com/</span></p>
+				</a>
+			</section>
+			
+			<p class="nxt_sub6">
+				<img src="images/next.gif" alt="다음"/>
+			</p>
+
+			<div class="after_sub6">
+				<a href="#"class="main1_sub6"><span class="dim sub6_dim1"></span>
+				<img src="images/pt6_a1.gif" alt="tourtips 리뉴얼" /></a>
+				<a href="#" class="main2_sub6"><span class="dim sub6_dim2"></span>
+				<img src="images/pt6_a2.gif" alt="tourtips 리뉴얼"/></a>
+		</div>
+		<div class="content2_sub6">
+			<div class="language">
+				<img src="images/pt6_cont.gif" alt="tourtips 코딩 설명"/>
+			</div>
+
+			<div class="sub_sub6">
+				<ul>
+					<li>
+						<a href="#"><span class="dim sub6_dim1_s"></span>
+						<img src="images/pt6_sub1.gif" alt="서브1"/></a>
+					</li>
+					<li>
+						<a href="#"><span class="dim sub6_dim2_s"></span>
+						<img src="images/pt6_sub2.gif" alt="서브2"/></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<img src="images/footer.gif" alt="footer_water"/>
+	</footer>
+  </div>
+ </body>
+</html>
